@@ -1,6 +1,7 @@
 import React from 'react';
-import NavigationElement from './navigation/NavigationElement';
+import PersonalWebsite from '../container/PersonalWebsite';
 
 export default function App() {
-  return <NavigationElement name="test" label="label" value="value" onChange={() => {}}/>;
+
+  return <PersonalWebsite />;
 }

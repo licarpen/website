@@ -1,6 +1,6 @@
 import React from 'react';
+import NavigationElement from './navigation/NavigationElement';
 
 export default function App() {
-  return <h1>Hello World</h1>;
+  return <NavigationElement name="test" label="label" value="value" onChange={() => {}}/>;
 }
-  

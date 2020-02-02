@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import NavigationBar from '../components/navigation/NavigationBar';
-import NavigationElement from '../components/navigation/NavigationElement';
 import Connect from '../components/connect/Connect';
 import PortfolioList from '../components/portfolio/PortfolioList';
 
@@ -23,19 +22,20 @@ const portfolioPieces = [
 
 export default class PersonalWebsite extends Component {
   state = {
-    navigationSelection: ''
+    navigationSelection: '',
+    portfolioItemDetail: ''
   }
 
   handleChange = ({ target }) => {
     this.setState({ navigationSelection: target.value  });
   }
 
-  handleClick = ({ target }) => {
-    console.log(target);
+  handleClick = (title) => {
+    this.setState({ portfolioItemDetail: title });
   }
 
   render() {
-    const { navigationSelection } = this.state;
+    const { navigationSelection, portfolioItemDetail } = this.state;
 
     return (
       <>
@@ -44,7 +44,7 @@ export default class PersonalWebsite extends Component {
           navigationElements={navigationElements}
           onChange={this.handleChange}
         />
-        <PortfolioList portfolioItemsArray={portfolioPieces} onClick={this.handleClick} />
+        <PortfolioList portfolioItemDetail={portfolioItemDetail} portfolioItemsArray={portfolioPieces} onClick={this.handleClick} />
         <Connect />
       </>
     );

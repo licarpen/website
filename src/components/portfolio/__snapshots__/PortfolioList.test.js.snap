@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PortfolioList component matches a snapshot when a single portfolio item has been clicked and is displayed 1`] = `
+<div
+  title="Treks N Tents"
+>
+  <h2>
+    Treks N Tents
+  </h2>
+  <img
+    src="url"
+  />
+  <p>
+    NodeJS, JS, Restful APIs, HTML5/CSS3
+  </p>
+  <p>
+    A full stack, mobile-responsive hiking and camping app built by a 6-person team in a 4-day sprint
+  </p>
+  <button
+    onClick={[Function]}
+  >
+    Return
+  </button>
+</div>
+`;
+
+exports[`PortfolioList component matches a snapshot when no portfolio piece has been clicked 1`] = `
+<ul>
+  <li
+    key="Treks N Tents"
+  >
+    <PortfolioItem
+      onClick={[Function]}
+      portfolioItem={
+        Object {
+          "description": "A full stack, mobile-responsive hiking and camping app built by a 6-person team in a 4-day sprint",
+          "image": "url",
+          "technology": "NodeJS, JS, Restful APIs, HTML5/CSS3",
+          "title": "Treks N Tents",
+        }
+      }
+    />
+  </li>
+  <li
+    key="Minesweeper No. 2"
+  >
+    <PortfolioItem
+      onClick={[Function]}
+      portfolioItem={
+        Object {
+          "description": "A recursion of the classic 90's computer game. Built by a 5- person team in a 4-day sprint",
+          "image": "url",
+          "technology": "Vanilla Javascript",
+          "title": "Minesweeper No. 2",
+        }
+      }
+    />
+  </li>
+</ul>
+`;

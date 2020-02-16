@@ -1,14 +1,26 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { usePortfolio } from '../../hooks/portfolio';
 
-const PortfolioItem = () => (
-  <div onClick={() => onClick(portfolioItem.title)} title={portfolioItem.title}>
-    <h2>{portfolioItem.title}</h2>
-    <img src={portfolioItem.image}/>
-  </div>
+const PortfolioItem = ({ match }) => {
+  const { title, image, technology, description } = usePortfolio(match.params.title);
 
-<h2>{portfolioItem.title}</h2>
-<img src={portfolioItem.image}/>
+  return (
+    <div>
+      <h2>{title}</h2>
+      <img src={image}/>
+      <p>Technologies: {technology}</p>
+      <p>{description}</p>
+    </div>
+  );
+};
 
+PortfolioItem.propTypes = { 
+  match: PropTypes.shape({
+    params: PropTypes.shape({
+      title: PropTypes.string.isRequired
+    }).isRequired
+  }).isRequired
+};
 
 export default PortfolioItem;

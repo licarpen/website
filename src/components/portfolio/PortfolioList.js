@@ -1,8 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { portfolioPieces } from '../../hooks/portfolio';
 
-const PortfolioList = (portfolioItemsArray) => {
-  const portfolioItemElements = portfolioItemsArray.map(item => (
+const PortfolioList = () => {
+  console.log(portfolioPieces);
+  const portfolioItemElements = portfolioPieces.map(item => (
     <li key={item.title}>
       <Link to={`/portfolio/${item.title}`}>
         <h2>{item.title}</h2>

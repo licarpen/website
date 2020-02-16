@@ -1,26 +1,27 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-import NavigationElement from './NavigationElement';
+import { Link } from 'react-router-dom';
+import { useNavigation } from '../../hooks/navigation';
 
-const NavigationBar = ({ navigationElements, name, onChange }) => {
-  const navigationBarElements = navigationElements.map(({ label, value }) => (
-    <NavigationElement key={value} label={label} value={value} name={name} onChange={onChange} />
-  ));
+const NavigationBar = () => {
+  const { navigationSelection, handleChange } = useNavigation();
+  console.log(navigationSelection);
   
   return (
     <>
-      {navigationBarElements}
+      <Link to='/'>
+        <input id='home' type="radio" name='nav' value='home' checked={navigationSelection === 'home'} onChange={handleChange} />
+        <label htmlFor='home'>Home</label>
+      </Link>
+      <Link to='/portfolio'>
+        <input id='portfolio' type="radio" name='nav' value='portfolio' checked={navigationSelection === 'portfolio'} onChange={handleChange} />
+        <label htmlFor='portfolio'>Portfolio</label>
+      </Link>
+      <Link to='/connect'>
+        <input id='connect' type="radio" name='nav' value='connect' checked={navigationSelection === 'connect'} onChange={handleChange} />
+        <label htmlFor='connect'>Connect</label>
+      </Link>
     </>
   );
-};
-
-NavigationBar.propTypes = {
-  navigationElements: PropTypes.arrayOf(PropTypes.shape({
-    label: PropTypes.string.isRequired,
-    value: PropTypes.string.isRequired
-  })).isRequired,
-  name: PropTypes.string.isRequired,
-  onChange: PropTypes.func.isRequired
 };
 
 export default NavigationBar;

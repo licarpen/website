@@ -3,12 +3,6 @@ import NavigationBar from '../components/navigation/NavigationBar';
 import Connect from '../components/connect/Connect';
 import PortfolioList from '../components/portfolio/PortfolioList';
 
-const navigationElements = [
-  { label: 'Portfolio', value: 'portfolio' },
-  { label: 'Connect', value: 'Connect' },
-  { label: 'Home', value: 'home' }
-];
-
 const portfolioPieces = [
   { title: 'Treks N Tents',
     image: 'url',
@@ -40,8 +34,7 @@ export default class PersonalWebsite extends Component {
     return (
       <>
         <NavigationBar 
-          name={navigationSelection}
-          navigationElements={navigationElements}
+          navigationSelection={navigationSelection}
           onChange={this.handleChange}
         />
         <PortfolioList portfolioItemDetail={portfolioItemDetail} portfolioItemsArray={portfolioPieces} onClick={this.handleClick} />

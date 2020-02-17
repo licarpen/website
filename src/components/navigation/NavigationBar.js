@@ -1,25 +1,33 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { useNavigation } from '../../hooks/navigation';
 
 const NavigationBar = () => {
-  const { navigationSelection, handleChange } = useNavigation();
-  console.log(navigationSelection);
+  const { handleChange } = useNavigation();
   
   return (
     <>
-      <Link to='/'>
-        <input id='home' type="radio" name='nav' value='home' checked={navigationSelection === 'home'} onChange={handleChange} />
+      <NavLink exact to='/' activeStyle={{
+        fontWeight: 'bold',
+        color: 'red'
+      }}>
+        <input id='home' type="radio" name='nav' value='home' onChange={handleChange} />
         <label htmlFor='home'>Home</label>
-      </Link>
-      <Link to='/portfolio'>
-        <input id='portfolio' type="radio" name='nav' value='portfolio' checked={navigationSelection === 'portfolio'} onChange={handleChange} />
+      </NavLink>
+      <NavLink to='/portfolio' activeStyle={{
+        fontWeight: 'bold',
+        color: 'red'
+      }}>
+        <input id='portfolio' type="radio" name='nav' value='portfolio'  onChange={handleChange} />
         <label htmlFor='portfolio'>Portfolio</label>
-      </Link>
-      <Link to='/connect'>
-        <input id='connect' type="radio" name='nav' value='connect' checked={navigationSelection === 'connect'} onChange={handleChange} />
+      </NavLink>
+      <NavLink to='/connect' activeStyle={{
+        fontWeight: 'bold',
+        color: 'red'
+      }}>
+        <input id='connect' type="radio" name='nav' value='connect'  onChange={handleChange} />
         <label htmlFor='connect'>Connect</label>
-      </Link>
+      </NavLink>
     </>
   );
 };

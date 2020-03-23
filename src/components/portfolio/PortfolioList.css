@@ -1,9 +1,25 @@
 .PortfolioList{
   border: 2px red solid;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
   .card{
     border: 2px blue solid;
+    margin: auto;
+    height: 400px;
   }
-  .Link{
-    color: blue;
+
+  .card:hover{
+    img{
+      width: 280px;      
+      padding: 3px;
+    }
+  }
+
+  img{
+    display: block;
+    margin: auto;
+    width: 250px;
+    padding: 20px;
   }
 }

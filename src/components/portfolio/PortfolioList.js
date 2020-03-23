@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './PortfolioList.css';
 import { Link } from 'react-router-dom';
-import { portfolioPieces } from '../../hooks/portfolio';
+import { portfolioPieces } from '../../data/portfolio';
 
 const PortfolioList = () => {
   const portfolioItemElements = portfolioPieces.map(item => (

@@ -1,0 +1,20 @@
+body{
+  margin: auto;
+  background: rgb(178, 194, 209);
+
+  h1 {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  p {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  h2 {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  Link {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+}

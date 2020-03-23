@@ -5,6 +5,7 @@ import Connect from '../components/connect/Connect';
 import About from '../components/about/About';
 import PortfolioItem from '../components/portfolio/PortfolioItem';
 import PortfolioList from '../components/portfolio/PortfolioList';
+import './App.css';
 
 export default function App() {
 

@@ -1,0 +1,9 @@
+.PortfolioList{
+  border: 2px red solid;
+  .card{
+    border: 2px blue solid;
+  }
+  .Link{
+    color: blue;
+  }
+}

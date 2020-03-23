@@ -1,0 +1,15 @@
+.NavigationBar{
+  background: yellowgreen;
+  border: solid 1px blue;
+  
+  .NavLink{
+    border: 1px black solid;
+    color: cyan;
+  }
+  .NavLink:hover{
+    color: blue;
+  }
+  .NavLink:active{
+    color: magenta;
+  }
+}

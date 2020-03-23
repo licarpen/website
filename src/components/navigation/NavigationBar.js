@@ -6,22 +6,13 @@ const NavigationBar = () => {
   
   return (
     <div className={styles.NavigationBar}>
-      <NavLink exact to='/' activeStyle={{
-        fontWeight: 'bold',
-        color: 'red'
-      }}>
+      <NavLink className={styles.NavLink} exact to='/'>
         Home
       </NavLink>
-      <NavLink exact to='/about' activeStyle={{
-        fontWeight: 'bold',
-        color: 'red'
-      }}>
+      <NavLink className={styles.NavLink} exact to='/about'>
         About
       </NavLink>
-      <NavLink exact to='/connect' activeStyle={{
-        fontWeight: 'bold',
-        color: 'red'
-      }}>
+      <NavLink className={styles.NavLink} exact to='/connect'>
         Connect
       </NavLink>
     </div>

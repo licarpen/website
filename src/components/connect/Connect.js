@@ -1,10 +1,14 @@
 import React from 'react';
+import styles from './Connect.css';
+import github from '../../assets/connect/github.svg';
+import linkedin from '../../assets/connect/linkedin.svg';
+import email from '../../assets/connect/email.svg';
 
 const Connect = () => (
-  <div>
-    <a href='https://github.com/licarpen' target='_blank' rel='noopener noreferrer'>GitHub</a>
-    <a href='https://www.linkedin.com/in/lisacarpenter256/' target='_blank' rel='noopener noreferrer'>LinkedIn</a>
-    <a href='mailto:carpenter.lisa@gmail.com' target='_blank' rel='noopener noreferrer'>carpenter.lisa@gmail.com</a>
+  <div className={styles.Connect}>
+    <a href='https://github.com/licarpen' target='_blank' rel='noopener noreferrer' ><img src={github}></img>GitHub</a>
+    <a href='https://www.linkedin.com/in/lisacarpenter256/' target='_blank' rel='noopener noreferrer'><img src={linkedin}></img>LinkedIn</a>
+    <a className={styles.email} href='mailto:carpenter.lisa@gmail.com' target='_blank' rel='noopener noreferrer'><img src={email}></img>carpenter.lisa@gmail.com</a>
   </div>
 );
 

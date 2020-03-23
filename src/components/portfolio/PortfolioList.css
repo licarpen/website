@@ -1,45 +1,66 @@
 .PortfolioList{
-  border: 2px red solid;
+  margin: 3vw;
+  border-radius: 1em;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
 
   .Link{
     text-decoration: none;
+    color: white;
+  }
+
+  .title{
+    font-size: 24px;
+    font-weight: bold;
   }
 
   .card{
+    width: 300px;
     margin: auto;
     height: 380px;
-    padding: 8px;
-    margin: 15px;
+    padding: 6px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 10px;
     border-radius: 1em;
-    border: solid 3px white;
+    border: solid 4px white;
+    box-sizing: border-box;
   }
 
   .imgDiv{
-    height: 325px;
+    height: 275px;
     display: block;
     margin: auto;
-    border: black 1px solid;
-    box-sizing: border-box;
+    margin-bottom: 10px;
   }
 
   .card:hover{
     border: solid 8px white;
+    margin-top: 6px;
     img{
-      width: 240px; 
+      width: 260px; 
       padding: 0px;
-      padding-top: 5px;
+      padding-top: 8px;
+      padding-bottom: 3px;
     }
+    .imgDiv{
+      margin-bottom: 10px;
+    }
+
+
   }
 
   img{
     display: block;
-    border: solid purple 1px;
     margin: auto;
-    width: 230px;
-    border-radius: 1.5em;
+    width: 250px;
+    border-radius: 1.2em;
     padding: 10px;
-    transition: width 0.5s;
+    transition: width 0.4s;
+  }
+
+  .tech{
+    font-size: 18px;
+    font-weight: none;
   }
 }

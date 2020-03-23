@@ -7,11 +7,11 @@ const PortfolioList = () => {
   const portfolioItemElements = portfolioPieces.map(item => (
     <li key={item.title} className={styles.card}>
       <Link className={styles.Link} to={`/${item.title}`}>
-        <h2>{item.title}</h2>
+        <h2 className={styles.title}>{item.title}</h2>
         <div className={styles.imgDiv}>
           <img src={item.image}/>
         </div>
-        <p>{item.technology}</p>
+        <p className={styles.tech}>{item.technology}</p>
       </Link>
     </li>
     

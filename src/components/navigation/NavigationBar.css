@@ -1,4 +1,6 @@
 .NavigationBar{
+  display: flex;
+  justify-content: flex-end;
   padding: 10px;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -22,5 +24,13 @@
   .activeNavLink{
     color: darkcyan;
     background: white;
+  }
+
+  @media screen and (max-width: 600px){
+    justify-content: center;
+
+    .NavLink{
+      font-size: 20px;
+    }
   }
 }

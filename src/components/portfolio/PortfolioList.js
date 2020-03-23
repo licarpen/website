@@ -8,7 +8,9 @@ const PortfolioList = () => {
     <li key={item.title} className={styles.card}>
       <Link className={styles.Link} to={`/${item.title}`}>
         <h2>{item.title}</h2>
-        <img src={item.image}/>
+        <div className={styles.imgDiv}>
+          <img src={item.image}/>
+        </div>
         <p>{item.technology}</p>
       </Link>
     </li>

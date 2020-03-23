@@ -1,5 +1,16 @@
 .Header{
-  margin: auto;
-  background: coral;
+  background: darkcyan;
   border: solid 1px darkcyan;
+
+  h1{
+    margin: 20px;
+    font-size: 5vw;
+    color: white;
+  }
+
+  h2{
+    margin-bottom: 10px;
+    font-size: 3.5vw;
+    color: white;
+  }
 }

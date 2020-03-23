@@ -3,23 +3,43 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 
+  .Link{
+    text-decoration: none;
+  }
+
   .card{
-    border: 2px blue solid;
     margin: auto;
-    height: 400px;
+    height: 380px;
+    padding: 8px;
+    margin: 15px;
+    border-radius: 1em;
+    border: solid 3px white;
+  }
+
+  .imgDiv{
+    height: 325px;
+    display: block;
+    margin: auto;
+    border: black 1px solid;
+    box-sizing: border-box;
   }
 
   .card:hover{
+    border: solid 8px white;
     img{
-      width: 280px;      
-      padding: 3px;
+      width: 240px; 
+      padding: 0px;
+      padding-top: 5px;
     }
   }
 
   img{
     display: block;
+    border: solid purple 1px;
     margin: auto;
-    width: 250px;
-    padding: 20px;
+    width: 230px;
+    border-radius: 1.5em;
+    padding: 10px;
+    transition: width 0.5s;
   }
 }

@@ -6,13 +6,13 @@ const NavigationBar = () => {
   
   return (
     <div className={styles.NavigationBar}>
-      <NavLink className={styles.NavLink} exact to='/'>
+      <NavLink className={styles.NavLink} activeClassName={styles.activeNavLink} exact to='/'>
         Home
       </NavLink>
-      <NavLink className={styles.NavLink} exact to='/about'>
+      <NavLink className={styles.NavLink} activeClassName={styles.activeNavLink} exact to='/about'>
         About
       </NavLink>
-      <NavLink className={styles.NavLink} exact to='/connect'>
+      <NavLink className={styles.NavLink} activeClassName={styles.activeNavLink} exact to='/connect'>
         Connect
       </NavLink>
     </div>

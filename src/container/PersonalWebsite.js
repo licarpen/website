@@ -16,12 +16,7 @@ const portfolioPieces = [
 
 export default class PersonalWebsite extends Component {
   state = {
-    navigationSelection: '',
     portfolioItemDetail: ''
-  }
-
-  handleChange = ({ target }) => {
-    this.setState({ navigationSelection: target.value  });
   }
 
   handleClick = (title) => {
@@ -29,14 +24,11 @@ export default class PersonalWebsite extends Component {
   }
 
   render() {
-    const { navigationSelection, portfolioItemDetail } = this.state;
+    const { portfolioItemDetail } = this.state;
 
     return (
       <>
-        <NavigationBar 
-          navigationSelection={navigationSelection}
-          onChange={this.handleChange}
-        />
+        <NavigationBar />
         <PortfolioList portfolioItemDetail={portfolioItemDetail} portfolioItemsArray={portfolioPieces} onClick={this.handleClick} />
         <Connect />
       </>

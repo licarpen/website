@@ -1,34 +1,30 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import { useNavigation } from '../../hooks/navigation';
+import styles from './NavigationBar.css';
 
 const NavigationBar = () => {
-  const { handleChange } = useNavigation();
   
   return (
-    <>
+    <div className={styles.NavigationBar}>
       <NavLink exact to='/' activeStyle={{
         fontWeight: 'bold',
         color: 'red'
       }}>
-        <input id='home' type="radio" name='nav' value='home' onChange={handleChange} />
-        <label htmlFor='home'>Home</label>
+        Home
       </NavLink>
-      <NavLink to='/portfolio' activeStyle={{
+      <NavLink exact to='/about' activeStyle={{
         fontWeight: 'bold',
         color: 'red'
       }}>
-        <input id='portfolio' type="radio" name='nav' value='portfolio'  onChange={handleChange} />
-        <label htmlFor='portfolio'>Portfolio</label>
+        About
       </NavLink>
-      <NavLink to='/connect' activeStyle={{
+      <NavLink exact to='/connect' activeStyle={{
         fontWeight: 'bold',
         color: 'red'
       }}>
-        <input id='connect' type="radio" name='nav' value='connect'  onChange={handleChange} />
-        <label htmlFor='connect'>Connect</label>
+        Connect
       </NavLink>
-    </>
+    </div>
   );
 };
 

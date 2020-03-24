@@ -50,11 +50,6 @@
     color: darkcyan;
   }
 
-  .activeA{
-    outline: none;
-    border: 3px solid magenta;
-  }
-
   .description{
     grid-area: description;
     font-size: 20px;
@@ -98,13 +93,32 @@
                          "tech"
                          "description"
                          "contributions";
-    grid-template-rows: 30px 35px auto 50px auto auto;
+    grid-template-rows: 35px 45px auto auto auto auto;
     grid-template-columns: 1fr;
     justify-content: center;
+    padding: 10px;
+
+    h2{
+      font-size: 7vw;
+    }
+
+    a{
+      margin: 3vw;
+      padding: 2vw;
+      font-size: 5vw;
+    }
 
     img{
-      width: 70%;
+      width: 100%;
       margin: auto;
+    }
+
+    .tech{
+      margin: 20px;
+    }
+
+    .description{
+      margin-bottom: 15px;
     }
   }
 

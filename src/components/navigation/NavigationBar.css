@@ -1,0 +1,36 @@
+.NavigationBar{
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+  margin-top: 10px;
+  
+  .NavLink{
+    border: 3px white solid;
+    color: white;
+    border-radius: .6em;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+  }
+  .NavLink:hover{
+    color: darkcyan;
+    background: white;
+  }
+  .activeNavLink{
+    color: darkcyan;
+    background: white;
+    outline: none;
+  }
+
+  @media screen and (max-width: 600px){
+    justify-content: center;
+
+    .NavLink{
+      font-size: 20px;
+    }
+  }
+}

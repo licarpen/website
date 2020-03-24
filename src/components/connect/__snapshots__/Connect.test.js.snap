@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Connect component matches a snapshot 1`] = `
+<div
+  className="Connect"
+>
+  <a
+    href="https://github.com/licarpen"
+    rel="noopener noreferrer"
+    target="_blank"
+  >
+    <img
+      src="/path/image"
+    />
+    GitHub
+  </a>
+  <a
+    href="https://www.linkedin.com/in/lisacarpenter256/"
+    rel="noopener noreferrer"
+    target="_blank"
+  >
+    <img
+      src="/path/image"
+    />
+    LinkedIn
+  </a>
+  <a
+    className="email"
+    href="mailto:carpenter.lisa@gmail.com"
+    rel="noopener noreferrer"
+    target="_blank"
+  >
+    <img
+      src="/path/image"
+    />
+    carpenter.lisa@gmail.com
+  </a>
+</div>
+`;

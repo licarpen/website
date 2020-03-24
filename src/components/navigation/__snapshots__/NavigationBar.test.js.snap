@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavigationBar component matches a snapshot 1`] = `
+<div
+  className="NavigationBar"
+>
+  <NavLink
+    activeClassName="activeNavLink"
+    className="NavLink"
+    exact={true}
+    to="/"
+  >
+    Home
+  </NavLink>
+  <NavLink
+    activeClassName="activeNavLink"
+    className="NavLink"
+    exact={true}
+    to="/about"
+  >
+    About
+  </NavLink>
+  <NavLink
+    activeClassName="activeNavLink"
+    className="NavLink"
+    exact={true}
+    to="/connect"
+  >
+    Connect
+  </NavLink>
+</div>
+`;

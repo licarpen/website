@@ -1,0 +1,393 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PortfolioList component matches a snapshot when a single portfolio item has been clicked and is displayed 1`] = `
+<ul
+  className="PortfolioList"
+>
+  <li
+    className="card"
+    key="Plot a Pi"
+  >
+    <Link
+      className="Link"
+      to="/Plot a Pi"
+    >
+      <h2
+        className="title"
+      >
+        Plot a Pi
+      </h2>
+      <div
+        className="imgDiv"
+      >
+        <img
+          src="/path/image"
+        />
+      </div>
+      <p
+        className="tech"
+      >
+        D3, React/Redux, Socket.IO, NodeJS, JS, MongoDB
+      </p>
+    </Link>
+  </li>
+  <li
+    className="card"
+    key="Treks N Trails"
+  >
+    <Link
+      className="Link"
+      to="/Treks N Trails"
+    >
+      <h2
+        className="title"
+      >
+        Treks N Trails
+      </h2>
+      <div
+        className="imgDiv"
+      >
+        <img
+          src="/path/image"
+        />
+      </div>
+      <p
+        className="tech"
+      >
+        NodeJS, JS, Restful APIs, PostgreSQL
+      </p>
+    </Link>
+  </li>
+  <li
+    className="card"
+    key="Plant Parenthood"
+  >
+    <Link
+      className="Link"
+      to="/Plant Parenthood"
+    >
+      <h2
+        className="title"
+      >
+        Plant Parenthood
+      </h2>
+      <div
+        className="imgDiv"
+      >
+        <img
+          src="/path/image"
+        />
+      </div>
+      <p
+        className="tech"
+      >
+        Python, NodeJS, MongoDB, JS, Raspbian
+      </p>
+    </Link>
+  </li>
+  <li
+    className="card"
+    key="Postman"
+  >
+    <Link
+      className="Link"
+      to="/Postman"
+    >
+      <h2
+        className="title"
+      >
+        Postman
+      </h2>
+      <div
+        className="imgDiv"
+      >
+        <img
+          src="/path/image"
+        />
+      </div>
+      <p
+        className="tech"
+      >
+        ReactJS
+      </p>
+    </Link>
+  </li>
+  <li
+    className="card"
+    key="Computational Models"
+  >
+    <Link
+      className="Link"
+      to="/Computational Models"
+    >
+      <h2
+        className="title"
+      >
+        Computational Models
+      </h2>
+      <div
+        className="imgDiv"
+      >
+        <img
+          src="/path/image"
+        />
+      </div>
+      <p
+        className="tech"
+      >
+        Python, D3, ReactJS
+      </p>
+    </Link>
+  </li>
+  <li
+    className="card"
+    key="Minesweeper No. 2"
+  >
+    <Link
+      className="Link"
+      to="/Minesweeper No. 2"
+    >
+      <h2
+        className="title"
+      >
+        Minesweeper No. 2
+      </h2>
+      <div
+        className="imgDiv"
+      >
+        <img
+          src="/path/image"
+        />
+      </div>
+      <p
+        className="tech"
+      >
+        Vanilla Javascript, HTML5/CSS3
+      </p>
+    </Link>
+  </li>
+  <li
+    className="card"
+    key="Data Strucutres and Algorithms"
+  >
+    <Link
+      className="Link"
+      to="/Data Strucutres and Algorithms"
+    >
+      <h2
+        className="title"
+      >
+        Data Strucutres and Algorithms
+      </h2>
+      <div
+        className="imgDiv"
+      >
+        <img
+          src={null}
+        />
+      </div>
+      <p
+        className="tech"
+      >
+        JavaScript
+      </p>
+    </Link>
+  </li>
+</ul>
+`;
+
+exports[`PortfolioList component matches a snapshot when no portfolio piece has been clicked 1`] = `
+<ul
+  className="PortfolioList"
+>
+  <li
+    className="card"
+    key="Plot a Pi"
+  >
+    <Link
+      className="Link"
+      to="/Plot a Pi"
+    >
+      <h2
+        className="title"
+      >
+        Plot a Pi
+      </h2>
+      <div
+        className="imgDiv"
+      >
+        <img
+          src="/path/image"
+        />
+      </div>
+      <p
+        className="tech"
+      >
+        D3, React/Redux, Socket.IO, NodeJS, JS, MongoDB
+      </p>
+    </Link>
+  </li>
+  <li
+    className="card"
+    key="Treks N Trails"
+  >
+    <Link
+      className="Link"
+      to="/Treks N Trails"
+    >
+      <h2
+        className="title"
+      >
+        Treks N Trails
+      </h2>
+      <div
+        className="imgDiv"
+      >
+        <img
+          src="/path/image"
+        />
+      </div>
+      <p
+        className="tech"
+      >
+        NodeJS, JS, Restful APIs, PostgreSQL
+      </p>
+    </Link>
+  </li>
+  <li
+    className="card"
+    key="Plant Parenthood"
+  >
+    <Link
+      className="Link"
+      to="/Plant Parenthood"
+    >
+      <h2
+        className="title"
+      >
+        Plant Parenthood
+      </h2>
+      <div
+        className="imgDiv"
+      >
+        <img
+          src="/path/image"
+        />
+      </div>
+      <p
+        className="tech"
+      >
+        Python, NodeJS, MongoDB, JS, Raspbian
+      </p>
+    </Link>
+  </li>
+  <li
+    className="card"
+    key="Postman"
+  >
+    <Link
+      className="Link"
+      to="/Postman"
+    >
+      <h2
+        className="title"
+      >
+        Postman
+      </h2>
+      <div
+        className="imgDiv"
+      >
+        <img
+          src="/path/image"
+        />
+      </div>
+      <p
+        className="tech"
+      >
+        ReactJS
+      </p>
+    </Link>
+  </li>
+  <li
+    className="card"
+    key="Computational Models"
+  >
+    <Link
+      className="Link"
+      to="/Computational Models"
+    >
+      <h2
+        className="title"
+      >
+        Computational Models
+      </h2>
+      <div
+        className="imgDiv"
+      >
+        <img
+          src="/path/image"
+        />
+      </div>
+      <p
+        className="tech"
+      >
+        Python, D3, ReactJS
+      </p>
+    </Link>
+  </li>
+  <li
+    className="card"
+    key="Minesweeper No. 2"
+  >
+    <Link
+      className="Link"
+      to="/Minesweeper No. 2"
+    >
+      <h2
+        className="title"
+      >
+        Minesweeper No. 2
+      </h2>
+      <div
+        className="imgDiv"
+      >
+        <img
+          src="/path/image"
+        />
+      </div>
+      <p
+        className="tech"
+      >
+        Vanilla Javascript, HTML5/CSS3
+      </p>
+    </Link>
+  </li>
+  <li
+    className="card"
+    key="Data Strucutres and Algorithms"
+  >
+    <Link
+      className="Link"
+      to="/Data Strucutres and Algorithms"
+    >
+      <h2
+        className="title"
+      >
+        Data Strucutres and Algorithms
+      </h2>
+      <div
+        className="imgDiv"
+      >
+        <img
+          src={null}
+        />
+      </div>
+      <p
+        className="tech"
+      >
+        JavaScript
+      </p>
+    </Link>
+  </li>
+</ul>
+`;

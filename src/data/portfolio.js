@@ -38,13 +38,13 @@ export const portfolioPieces = [
     description: 'A server-side client application for visualizing responses to requests',
     github: 'https://github.com/licarpen/postman',
     site: null,
-    contributions: ['sdkflkj', 'sdfkjl', 'sdfjkldskjdkflkjdkf', 'sdfjkldkj']
+    contributions: ['All']
   },
   { 
     title: 'Computational Models',
     image:physicsMain,
     technology: 'Python, D3, ReactJS',
-    description: 'A collection of computational models that simulate physical systems from classical mechanics, electricity and magnetism, chaos, quantum mechanics, and statistical mechancics in addition to mathematical phenomena',
+    description: 'A collection of computational models that simulate physical systems from classical mechanics, electricity and magnetism, chaos, quantum mechanics, and statistical mechancics.',
     github: null,
     site: null,
     contributions: ['Compared errors in approximation methods for modeling radioactive decay', 'Graphed chaotic behavior of two pendula', 'Graphed bifurcation and chaos of the logistic equation', 'Graphed Mandelbrot set fractal', 'Visualized interactions of sound waves', 
@@ -66,6 +66,6 @@ export const portfolioPieces = [
     description: 'Implementation of common data structures and algorithms in computer programming.',
     github: 'https://github.com/licarpen/data-structures-and-algorithms',
     site: null,
-    contributions: []
+    contributions: ['All']
   }
 ];

@@ -6,11 +6,14 @@
                        "image links"
                        "image tech"
                        "image description"
-                       "image contributionsTitle"
                        "image contributions";
-  grid-template-rows: 40px 40px 30px 60px 30px auto;
-  grid-gap: 2vw;
+  grid-template-rows: 40px 40px 25px auto auto;
+  grid-gap: 1.75vw;
   justify-content: stretch;
+  align-items: center;
+  border: white solid 3px;
+  padding: 30px;
+  border-radius: 1em;
   
 
   img{
@@ -39,6 +42,7 @@
     border-radius: 1em;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
+    outline: none;
   }
 
   a:hover{
@@ -46,9 +50,14 @@
     color: darkcyan;
   }
 
+  .activeA{
+    outline: none;
+    border: 3px solid magenta;
+  }
+
   .description{
     grid-area: description;
-    font-size: 24px;;
+    font-size: 20px;
   }
 
   .tech{
@@ -56,28 +65,47 @@
     font-size: 20px;
   }
 
+  .contributionsContainer{
+    grid-area: contributions;
+    border: white solid 3px;
+    border-radius: 1em;
+    padding: 20px;
+  }
+
   .contributionsTitle{
-    grid-area: contributionsTitle;
     font-size: 30px;
+    margin-bottom: 20px;
   }
 
   .contributionList{
-    grid-area: contributions;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
+    width: 90%;
+    padding-left: 10px;
+    margin-left: 3vw;
+    margin-right: 20px;
   }
 
-  @media screen and (max-width: 1500px){
+  ul{
+    list-style: disc;
+    line-height: 30px;
+  }
+
+  @media screen and (max-width: 1200px){
     grid-template-areas: "title"
                          "links"
                          "image"
                          "tech"
                          "description"
-                         "contributionsTitle"
                          "contributions";
-    grid-template-rows: 30px 20px auto 100px 500px;
+    grid-template-rows: 30px 35px auto 50px auto auto;
     grid-template-columns: 1fr;
     justify-content: center;
+
+    img{
+      width: 70%;
+      margin: auto;
+    }
   }
 
 }

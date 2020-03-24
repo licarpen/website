@@ -12,7 +12,6 @@
 
   .title{
     font-size: 24px;
-    font-weight: bold;
   }
 
   .card{
@@ -47,8 +46,6 @@
     .imgDiv{
       margin-bottom: 10px;
     }
-
-
   }
 
   img{

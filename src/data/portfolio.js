@@ -13,7 +13,7 @@ export const portfolioPieces = [
     description: 'An interactive data visualization app to celebrate pi. Built by a 5-person team in a 7-day sprint.',
     github: 'https://github.com/plot-a-pi/pi',
     site: 'https://plot-a-pi-prod.firebaseapp.com/',
-    contributions: ['sdkflkj', 'sdfkjl', 'sdfjkldskjdkflkjdkflskjdfkldkjskdlfkdjskldkfjdklskdjfkdlskdj', 'sdfjkldkj']
+    contributions: ['Led team from ideation through development to production', 'Generated D3 data visualizations', 'Implemented Monte Carlo simulation', 'Actively maintaining and improving app functionality as a resource for educators']
   },
   { title: 'Treks N Trails',
     image: treksSearch,
@@ -21,7 +21,7 @@ export const portfolioPieces = [
     description: 'A full stack, mobile-responsive hiking and camping app built by a 6-person team in a 4-day sprint.',
     github: 'https://github.com/Plant-Parenthood/treks-n-tents',
     site: 'https://treksntrails.herokuapp.com/index.html?redirect=%2F',
-    contributions: ['sdkflkj', 'sdfkjl', 'sdfjkldskjdkflkjdkflskjdfkldkjskdlfkdjskldkfjdklskdjfkdlskdj', 'sdfjkldkj']
+    contributions: ['Wrote fetch routes to 5 external APIs', 'Munged API data', 'Implemented user auth', 'Maintained state for user on front end', 'Filtered hike data based on user input', 'Built and tested components']
   },
   { 
     title: 'Plant Parenthood',
@@ -30,7 +30,7 @@ export const portfolioPieces = [
     description: 'A secure, server-side app for remote gathering of sensor data from an IoT device, build by a 5-person team in a 4-day sprint.',
     github: 'https://github.com/piParty/pi-party',
     site: null,
-    contributions: ['sdkflkj', 'sdfkjl', 'sdfjkldskjdkflkjdkflskjdfkldkjskdlfkdjskldkfjdklskdjfkdlskdj', 'sdfjkldkj']
+    contributions: ['Set up and integrated hardware', 'Developed security processes', 'Seeded and tested plant database', 'Wrote and tested plants routes', 'Gathered and posted sensor data to database']
   },
   { title: 'Postman',
     image:postmanMain,
@@ -38,16 +38,17 @@ export const portfolioPieces = [
     description: 'A server-side client application for visualizing responses to requests',
     github: 'https://github.com/licarpen/postman',
     site: null,
-    contributions: ['sdkflkj', 'sdfkjl', 'sdfjkldskjdkflkjdkflskjdfkldkjskdlfkdjskldkfjdklskdjfkdlskdj', 'sdfjkldkj']
+    contributions: ['sdkflkj', 'sdfkjl', 'sdfjkldskjdkflkjdkf', 'sdfjkldkj']
   },
   { 
     title: 'Computational Models',
     image:physicsMain,
     technology: 'Python, D3, ReactJS',
-    description: 'A collection of computational models.',
+    description: 'A collection of computational models that simulate physical systems from classical mechanics, electricity and magnetism, chaos, quantum mechanics, and statistical mechancics in addition to mathematical phenomena',
     github: null,
     site: null,
-    contributions: ['sdkflkj', 'sdfkjl', 'sdfjkldskjdkflkjdkflskjdfkldkjskdlfkdjskldkfjdklskdjfkdlskdj', 'sdfjkldkj']
+    contributions: ['Compared errors in approximation methods for modeling radioactive decay', 'Graphed chaotic behavior of two pendula', 'Graphed bifurcation and chaos of the logistic equation', 'Graphed Mandelbrot set fractal', 'Visualized interactions of sound waves', 
+      'Modeled Pyrochlore lattice structure in 3D']
   },
   { 
     title: 'Minesweeper No. 2',
@@ -56,7 +57,7 @@ export const portfolioPieces = [
     description: 'A recursion of the classic 90\'s computer game. Built by a 5- person team in a 4-day sprint.',
     github: 'https://github.com/ACL-minesweeper/mindsweepers',
     site: 'https://acl-minesweeper.github.io/mindsweepers/',
-    contributions: ['sdkflkj', 'sdfkjl', 'sdfjkldskjdkflkjdkflskjdfkldkjskdlfkdjskldkfjdklskdjfkdlskdj', 'sdfjkldkj']
+    contributions: ['Led team from ideation through MVP', 'Wrote and tested logic for seeding board with mines', 'Wrote and tested logic for board setup', 'Implemented and tested game play']
   },
   { 
     title: 'Data Strucutres and Algorithms',
@@ -65,6 +66,6 @@ export const portfolioPieces = [
     description: 'Implementation of common data structures and algorithms in computer programming.',
     github: 'https://github.com/licarpen/data-structures-and-algorithms',
     site: null,
-    contributions: ['sdkflkj', 'sdfkjl', 'sdfjkldskjdkflkjdkflskjdfkldkjskdlfkdjskldkfjdklskdjfkdlskdj', 'sdfjkldkj']
+    contributions: []
   }
 ];

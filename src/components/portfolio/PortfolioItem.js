@@ -19,6 +19,7 @@ const PortfolioItem = ({ match }) => {
       <img src={image}/>
       <p className={styles.tech}>{technology}</p>
       <p className={styles.description}>{description}</p>
+      <h2 className={styles.contributionsTitle}>Contributions</h2>
       <ul className={styles.contributionList}>
         {contributionsHtml}
       </ul>

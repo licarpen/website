@@ -1,16 +1,27 @@
 import React from 'react';
+import styles from './PortfolioItem.css';
 import PropTypes from 'prop-types';
 import { usePortfolio } from '../../hooks/portfolio';
 
 const PortfolioItem = ({ match }) => {
-  const { title, image, technology, description } = usePortfolio(match.params.title);
+  const { title, image, technology, description, github, site, contributions } = usePortfolio(match.params.title);
+
+  const siteHtml = site ? <a href={site} target='_blank' rel='noopener noreferrer' >Site</a> : '';
+  const contributionsHtml = contributions.map((i, k) => <li key={k}>{i}</li>);
 
   return (
-    <div>
+    <div className={styles.PortfolioItem}>
       <h2>{title}</h2>
+      <div className={styles.links}>
+        <a href={github} target='_blank' rel='noopener noreferrer' >GitHub</a>
+        {siteHtml}
+      </div>
       <img src={image}/>
-      <p>Technologies: {technology}</p>
-      <p>{description}</p>
+      <p className={styles.tech}>{technology}</p>
+      <p className={styles.description}>{description}</p>
+      <ul className={styles.contributionList}>
+        {contributionsHtml}
+      </ul>
     </div>
   );
 };

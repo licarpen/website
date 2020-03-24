@@ -26,6 +26,7 @@
     border-radius: 1em;
     border: solid 4px white;
     box-sizing: border-box;
+    transition: border 0.2s;
   }
 
   .imgDiv{

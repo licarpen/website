@@ -1,13 +1,14 @@
 .Header{
+  margin-bottom: 3vw;
   h1{
     margin: 10px;
-    font-size: 5vw;
+    font-size: 4vw;
     color: white;
   }
 
   h2{
     margin-bottom: 5px;
-    font-size: 3.5vw;
+    font-size: 2vw;
     color: white;
   }
 

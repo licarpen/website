@@ -1,20 +1,28 @@
 body{
   margin: auto;
-  background: darkcyan;
-
+  padding-bottom: 3vw;
+  background: rgb(81, 110, 110);
   h1 {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    color: white;
   }
 
   p {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    color: white;
   }
 
   h2 {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    color: white;
+  }
+
+  li {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
   }
   
   Link {

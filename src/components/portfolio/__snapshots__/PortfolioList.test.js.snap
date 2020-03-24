@@ -1,60 +1,393 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`PortfolioList component matches a snapshot when a single portfolio item has been clicked and is displayed 1`] = `
-<div
-  title="Treks N Tents"
+<ul
+  className="PortfolioList"
 >
-  <h2>
-    Treks N Tents
-  </h2>
-  <img
-    src="url"
-  />
-  <p>
-    NodeJS, JS, Restful APIs, HTML5/CSS3
-  </p>
-  <p>
-    A full stack, mobile-responsive hiking and camping app built by a 6-person team in a 4-day sprint
-  </p>
-  <button
-    onClick={[Function]}
+  <li
+    className="card"
+    key="Plot a Pi"
   >
-    Return
-  </button>
-</div>
+    <Link
+      className="Link"
+      to="/Plot a Pi"
+    >
+      <h2
+        className="title"
+      >
+        Plot a Pi
+      </h2>
+      <div
+        className="imgDiv"
+      >
+        <img
+          src="/path/image"
+        />
+      </div>
+      <p
+        className="tech"
+      >
+        D3, React/Redux, Socket.IO, NodeJS, JS, MongoDB
+      </p>
+    </Link>
+  </li>
+  <li
+    className="card"
+    key="Treks N Trails"
+  >
+    <Link
+      className="Link"
+      to="/Treks N Trails"
+    >
+      <h2
+        className="title"
+      >
+        Treks N Trails
+      </h2>
+      <div
+        className="imgDiv"
+      >
+        <img
+          src="/path/image"
+        />
+      </div>
+      <p
+        className="tech"
+      >
+        NodeJS, JS, Restful APIs, PostgreSQL
+      </p>
+    </Link>
+  </li>
+  <li
+    className="card"
+    key="Plant Parenthood"
+  >
+    <Link
+      className="Link"
+      to="/Plant Parenthood"
+    >
+      <h2
+        className="title"
+      >
+        Plant Parenthood
+      </h2>
+      <div
+        className="imgDiv"
+      >
+        <img
+          src="/path/image"
+        />
+      </div>
+      <p
+        className="tech"
+      >
+        Python, NodeJS, MongoDB, JS, Raspbian
+      </p>
+    </Link>
+  </li>
+  <li
+    className="card"
+    key="Postman"
+  >
+    <Link
+      className="Link"
+      to="/Postman"
+    >
+      <h2
+        className="title"
+      >
+        Postman
+      </h2>
+      <div
+        className="imgDiv"
+      >
+        <img
+          src="/path/image"
+        />
+      </div>
+      <p
+        className="tech"
+      >
+        ReactJS
+      </p>
+    </Link>
+  </li>
+  <li
+    className="card"
+    key="Computational Models"
+  >
+    <Link
+      className="Link"
+      to="/Computational Models"
+    >
+      <h2
+        className="title"
+      >
+        Computational Models
+      </h2>
+      <div
+        className="imgDiv"
+      >
+        <img
+          src="/path/image"
+        />
+      </div>
+      <p
+        className="tech"
+      >
+        Python, D3, ReactJS
+      </p>
+    </Link>
+  </li>
+  <li
+    className="card"
+    key="Minesweeper No. 2"
+  >
+    <Link
+      className="Link"
+      to="/Minesweeper No. 2"
+    >
+      <h2
+        className="title"
+      >
+        Minesweeper No. 2
+      </h2>
+      <div
+        className="imgDiv"
+      >
+        <img
+          src="/path/image"
+        />
+      </div>
+      <p
+        className="tech"
+      >
+        Vanilla Javascript, HTML5/CSS3
+      </p>
+    </Link>
+  </li>
+  <li
+    className="card"
+    key="Data Strucutres and Algorithms"
+  >
+    <Link
+      className="Link"
+      to="/Data Strucutres and Algorithms"
+    >
+      <h2
+        className="title"
+      >
+        Data Strucutres and Algorithms
+      </h2>
+      <div
+        className="imgDiv"
+      >
+        <img
+          src={null}
+        />
+      </div>
+      <p
+        className="tech"
+      >
+        JavaScript
+      </p>
+    </Link>
+  </li>
+</ul>
 `;
 
 exports[`PortfolioList component matches a snapshot when no portfolio piece has been clicked 1`] = `
-<ul>
+<ul
+  className="PortfolioList"
+>
   <li
-    key="Treks N Tents"
+    className="card"
+    key="Plot a Pi"
   >
-    <PortfolioItem
-      onClick={[Function]}
-      portfolioItem={
-        Object {
-          "description": "A full stack, mobile-responsive hiking and camping app built by a 6-person team in a 4-day sprint",
-          "image": "url",
-          "technology": "NodeJS, JS, Restful APIs, HTML5/CSS3",
-          "title": "Treks N Tents",
-        }
-      }
-    />
+    <Link
+      className="Link"
+      to="/Plot a Pi"
+    >
+      <h2
+        className="title"
+      >
+        Plot a Pi
+      </h2>
+      <div
+        className="imgDiv"
+      >
+        <img
+          src="/path/image"
+        />
+      </div>
+      <p
+        className="tech"
+      >
+        D3, React/Redux, Socket.IO, NodeJS, JS, MongoDB
+      </p>
+    </Link>
   </li>
   <li
+    className="card"
+    key="Treks N Trails"
+  >
+    <Link
+      className="Link"
+      to="/Treks N Trails"
+    >
+      <h2
+        className="title"
+      >
+        Treks N Trails
+      </h2>
+      <div
+        className="imgDiv"
+      >
+        <img
+          src="/path/image"
+        />
+      </div>
+      <p
+        className="tech"
+      >
+        NodeJS, JS, Restful APIs, PostgreSQL
+      </p>
+    </Link>
+  </li>
+  <li
+    className="card"
+    key="Plant Parenthood"
+  >
+    <Link
+      className="Link"
+      to="/Plant Parenthood"
+    >
+      <h2
+        className="title"
+      >
+        Plant Parenthood
+      </h2>
+      <div
+        className="imgDiv"
+      >
+        <img
+          src="/path/image"
+        />
+      </div>
+      <p
+        className="tech"
+      >
+        Python, NodeJS, MongoDB, JS, Raspbian
+      </p>
+    </Link>
+  </li>
+  <li
+    className="card"
+    key="Postman"
+  >
+    <Link
+      className="Link"
+      to="/Postman"
+    >
+      <h2
+        className="title"
+      >
+        Postman
+      </h2>
+      <div
+        className="imgDiv"
+      >
+        <img
+          src="/path/image"
+        />
+      </div>
+      <p
+        className="tech"
+      >
+        ReactJS
+      </p>
+    </Link>
+  </li>
+  <li
+    className="card"
+    key="Computational Models"
+  >
+    <Link
+      className="Link"
+      to="/Computational Models"
+    >
+      <h2
+        className="title"
+      >
+        Computational Models
+      </h2>
+      <div
+        className="imgDiv"
+      >
+        <img
+          src="/path/image"
+        />
+      </div>
+      <p
+        className="tech"
+      >
+        Python, D3, ReactJS
+      </p>
+    </Link>
+  </li>
+  <li
+    className="card"
     key="Minesweeper No. 2"
   >
-    <PortfolioItem
-      onClick={[Function]}
-      portfolioItem={
-        Object {
-          "description": "A recursion of the classic 90's computer game. Built by a 5- person team in a 4-day sprint",
-          "image": "url",
-          "technology": "Vanilla Javascript",
-          "title": "Minesweeper No. 2",
-        }
-      }
-    />
+    <Link
+      className="Link"
+      to="/Minesweeper No. 2"
+    >
+      <h2
+        className="title"
+      >
+        Minesweeper No. 2
+      </h2>
+      <div
+        className="imgDiv"
+      >
+        <img
+          src="/path/image"
+        />
+      </div>
+      <p
+        className="tech"
+      >
+        Vanilla Javascript, HTML5/CSS3
+      </p>
+    </Link>
+  </li>
+  <li
+    className="card"
+    key="Data Strucutres and Algorithms"
+  >
+    <Link
+      className="Link"
+      to="/Data Strucutres and Algorithms"
+    >
+      <h2
+        className="title"
+      >
+        Data Strucutres and Algorithms
+      </h2>
+      <div
+        className="imgDiv"
+      >
+        <img
+          src={null}
+        />
+      </div>
+      <p
+        className="tech"
+      >
+        JavaScript
+      </p>
+    </Link>
   </li>
 </ul>
 `;

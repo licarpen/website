@@ -1,27 +1,32 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`NavigationBar component matches a snapshot 1`] = `
-<Fragment>
-  <NavigationElement
-    key="portfolio"
-    label="Portfolio"
-    name="sample name"
-    onChange={[Function]}
-    value="portfolio"
-  />
-  <NavigationElement
-    key="Connect"
-    label="Connect"
-    name="sample name"
-    onChange={[Function]}
-    value="Connect"
-  />
-  <NavigationElement
-    key="home"
-    label="Home"
-    name="sample name"
-    onChange={[Function]}
-    value="home"
-  />
-</Fragment>
+<div
+  className="NavigationBar"
+>
+  <NavLink
+    activeClassName="activeNavLink"
+    className="NavLink"
+    exact={true}
+    to="/"
+  >
+    Home
+  </NavLink>
+  <NavLink
+    activeClassName="activeNavLink"
+    className="NavLink"
+    exact={true}
+    to="/about"
+  >
+    About
+  </NavLink>
+  <NavLink
+    activeClassName="activeNavLink"
+    className="NavLink"
+    exact={true}
+    to="/connect"
+  >
+    Connect
+  </NavLink>
+</div>
 `;

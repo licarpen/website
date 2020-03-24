@@ -37,14 +37,14 @@ export const portfolioPieces = [
     technology: 'ReactJS',
     description: 'A server-side client application for visualizing responses to requests',
     github: 'https://github.com/licarpen/postman',
-    site: null,
+    site: 'https://carpenterpostman.netlify.com/',
     contributions: ['All']
   },
   { 
     title: 'Computational Models',
     image:physicsMain,
     technology: 'Python, D3, ReactJS',
-    description: 'A collection of computational models that simulate physical systems from classical mechanics, electricity and magnetism, chaos, quantum mechanics, and statistical mechancics.',
+    description: 'A collection of computational models that simulate physical systems from classical mechanics, electricity and magnetism, chaos, quantum mechanics, and statistical mechanics.',
     github: null,
     site: null,
     contributions: ['Compared errors in approximation methods for modeling radioactive decay', 'Graphed chaotic behavior of two pendula', 'Graphed bifurcation and chaos of the logistic equation', 'Graphed Mandelbrot set fractal', 'Visualized interactions of sound waves', 
@@ -60,7 +60,7 @@ export const portfolioPieces = [
     contributions: ['Led team from ideation through MVP', 'Wrote and tested logic for seeding board with mines', 'Wrote and tested logic for board setup', 'Implemented and tested game play']
   },
   { 
-    title: 'Data Strucutres and Algorithms',
+    title: 'Data Structures and Algorithms',
     image: null,
     technology: 'JavaScript',
     description: 'Implementation of common data structures and algorithms in computer programming.',

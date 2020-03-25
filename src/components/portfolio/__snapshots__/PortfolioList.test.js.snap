@@ -135,7 +135,7 @@ exports[`PortfolioList component matches a snapshot when a single portfolio item
       <p
         className="tech"
       >
-        Python, D3, ReactJS
+        Python, ReactJS
       </p>
     </Link>
   </li>
@@ -168,22 +168,22 @@ exports[`PortfolioList component matches a snapshot when a single portfolio item
   </li>
   <li
     className="card"
-    key="Data Strucutres and Algorithms"
+    key="Data Structures and Algorithms"
   >
     <Link
       className="Link"
-      to="/Data Strucutres and Algorithms"
+      to="/Data Structures and Algorithms"
     >
       <h2
         className="title"
       >
-        Data Strucutres and Algorithms
+        Data Structures and Algorithms
       </h2>
       <div
         className="imgDiv"
       >
         <img
-          src={null}
+          src="/path/image"
         />
       </div>
       <p
@@ -331,7 +331,7 @@ exports[`PortfolioList component matches a snapshot when no portfolio piece has 
       <p
         className="tech"
       >
-        Python, D3, ReactJS
+        Python, ReactJS
       </p>
     </Link>
   </li>
@@ -364,22 +364,22 @@ exports[`PortfolioList component matches a snapshot when no portfolio piece has 
   </li>
   <li
     className="card"
-    key="Data Strucutres and Algorithms"
+    key="Data Structures and Algorithms"
   >
     <Link
       className="Link"
-      to="/Data Strucutres and Algorithms"
+      to="/Data Structures and Algorithms"
     >
       <h2
         className="title"
       >
-        Data Strucutres and Algorithms
+        Data Structures and Algorithms
       </h2>
       <div
         className="imgDiv"
       >
         <img
-          src={null}
+          src="/path/image"
         />
       </div>
       <p

@@ -7,9 +7,9 @@
                        "image tech"
                        "image description"
                        "image contributions";
-  grid-template-rows: 40px 40px 25px auto auto;
-  grid-gap: 1.75vw;
+  grid-template-rows: maxcontent;
   justify-content: stretch;
+  grid-gap: 1.75vw;
   align-items: center;
   border: white solid 3px;
   padding: 30px;

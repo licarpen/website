@@ -48,7 +48,7 @@ export const portfolioPieces = [
     description: 'A collection of computational models that simulate physical systems from classical mechanics, electricity and magnetism, chaos, quantum mechanics, and statistical mechanics.',
     github: 'https://github.com/licarpen/computational-modeling',
     site: null,
-    contributions: ['Compared errors in Euler and Euler-Comer approximation methods for modeling radioactive decay', 'Graphed chaotic behavior of two driven damped pendula', 'Graphed bifurcation and chaos of the logistic equation', 'Graphed Mandelbrot set fractal', 'Visualized interactions of sound waves', 'Modeled Pyrochlore lattice structure in 3D', 'Simulated knuckleball throw', 'Generated random walk in 1D', 'Approximated pi using Archimedes\' method', 'Compared integral approximation techniques', 'Modeling potential surrounding a hollow prism', 'Generated white noise']
+    contributions: ['Compared errors in Euler and Euler-Comer approximation methods for modeling radioactive decay', 'Graphed chaotic behavior of two driven damped pendula', 'Graphed bifurcation and chaos of the logistic equation', 'Graphed Mandelbrot set fractal', 'Visualized interactions of sound waves', 'Modeled Pyrochlore lattice structure in 3D', 'Simulated knuckleball throw', 'Generated random walk in 1D', 'Approximated pi using Archimedes\' method', 'Compared integral approximation techniques', 'Modeled potential surrounding a hollow prism', 'Generated white noise']
   },
   { 
     title: 'Minesweeper No. 2',

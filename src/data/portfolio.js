@@ -4,6 +4,7 @@ import minesweeperGame from '../assets/minesweeper/minesweeper_game.png';
 import postmanMain from '../assets/postman/postman_main.png';
 import plantsMain from '../assets/plants/plants_main.png';
 import physicsMain from '../assets/physics/physics_main.png';
+import whiteboard from '../assets/DSA/whiteboard.png';
 
 export const portfolioPieces = [
   { 
@@ -43,12 +44,11 @@ export const portfolioPieces = [
   { 
     title: 'Computational Models',
     image:physicsMain,
-    technology: 'Python, D3, ReactJS',
+    technology: 'Python, ReactJS',
     description: 'A collection of computational models that simulate physical systems from classical mechanics, electricity and magnetism, chaos, quantum mechanics, and statistical mechanics.',
-    github: null,
+    github: 'https://github.com/licarpen/computational-modeling',
     site: null,
-    contributions: ['Compared errors in approximation methods for modeling radioactive decay', 'Graphed chaotic behavior of two pendula', 'Graphed bifurcation and chaos of the logistic equation', 'Graphed Mandelbrot set fractal', 'Visualized interactions of sound waves', 
-      'Modeled Pyrochlore lattice structure in 3D']
+    contributions: ['Compared errors in Euler and Euler-Comer approximation methods for modeling radioactive decay', 'Graphed chaotic behavior of two driven damped pendula', 'Graphed bifurcation and chaos of the logistic equation', 'Graphed Mandelbrot set fractal', 'Visualized interactions of sound waves', 'Modeled Pyrochlore lattice structure in 3D', 'Simulated knuckleball throw', 'Generated random walk in 1D', 'Approximated pi using Archimedes\' method', 'Compared integral approximation techniques', 'Modeling potential surrounding a hollow prism', 'Generated white noise']
   },
   { 
     title: 'Minesweeper No. 2',
@@ -61,7 +61,7 @@ export const portfolioPieces = [
   },
   { 
     title: 'Data Structures and Algorithms',
-    image: null,
+    image: whiteboard,
     technology: 'JavaScript',
     description: 'Implementation of common data structures and algorithms in computer programming.',
     github: 'https://github.com/licarpen/data-structures-and-algorithms',

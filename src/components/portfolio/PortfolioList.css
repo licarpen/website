@@ -16,7 +16,6 @@
 
   .card{
     width: 300px;
-    margin: auto;
     height: 380px;
     padding: 6px;
     padding-top: 15px;
@@ -28,7 +27,7 @@
   }
 
   .imgDiv{
-    height: 275px;
+    height: 265px;
     display: block;
     margin: auto;
     margin-bottom: 10px;
@@ -60,5 +59,14 @@
   .tech{
     font-size: 18px;
     font-weight: none;
+  }
+
+  @media screen and (min-width: 1320px){
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    row-gap: 30px;
+    .card{
+      padding: 20px;
+      width: 320px;
+    }
   }
 }

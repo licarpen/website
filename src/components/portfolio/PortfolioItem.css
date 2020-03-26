@@ -93,19 +93,26 @@
                          "tech"
                          "description"
                          "contributions";
-    grid-template-rows: 35px 45px auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto;
     grid-template-columns: 1fr;
     justify-content: center;
     padding: 10px;
 
     h2{
-      font-size: 7vw;
+      font-size: 5vw;
+    }
+
+    .links{
+      margin-top: 3vw;
+      margin-bottom: 3vw;
     }
 
     a{
       margin: 3vw;
-      padding: 2vw;
-      font-size: 5vw;
+      padding: 1.5vw;
+      padding-left: 2.5vw;
+      padding-right: 2.5vw;
+      font-size: 3vw;
     }
 
     img{

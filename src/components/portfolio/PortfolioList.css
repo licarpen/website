@@ -1,6 +1,5 @@
 .PortfolioList{
   margin: 3vw;
-  border-radius: 1em;
   display: grid;
   gap: 30px;
   grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
@@ -23,7 +22,6 @@
     padding: 6px;
     padding-top: 15px;
     padding-bottom: 15px;
-    border-radius: 0.3em;
   }
 
   .imgDiv{
@@ -49,7 +47,6 @@
     padding-bottom: 3px;
     margin: auto;
     width: 260px;
-    border-radius: 0.9em;
     padding: 10px;
     transition: width 0.4s;
   }
@@ -63,7 +60,6 @@
   @media screen and (min-width: 1320px){
     width: 85%;
     margin: auto;
-    grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
     row-gap: 50px;
   }
 }

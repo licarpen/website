@@ -168,16 +168,16 @@ exports[`PortfolioList component matches a snapshot when a single portfolio item
   </li>
   <li
     className="card"
-    key="Data Structures and Algorithms"
+    key="Data Structures & Algorithms"
   >
     <Link
       className="Link"
-      to="/Data Structures and Algorithms"
+      to="/Data Structures & Algorithms"
     >
       <h2
         className="title"
       >
-        Data Structures and Algorithms
+        Data Structures & Algorithms
       </h2>
       <div
         className="imgDiv"
@@ -364,16 +364,16 @@ exports[`PortfolioList component matches a snapshot when no portfolio piece has 
   </li>
   <li
     className="card"
-    key="Data Structures and Algorithms"
+    key="Data Structures & Algorithms"
   >
     <Link
       className="Link"
-      to="/Data Structures and Algorithms"
+      to="/Data Structures & Algorithms"
     >
       <h2
         className="title"
       >
-        Data Structures and Algorithms
+        Data Structures & Algorithms
       </h2>
       <div
         className="imgDiv"

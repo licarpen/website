@@ -1,5 +1,8 @@
 .PortfolioList{
-  margin: 3vw;
+  margin: auto;
+  margin-top: 3vw;
+  margin-bottom: 3vw;
+  width: 85%;
   display: grid;
   gap: 30px;
   grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
@@ -58,7 +61,6 @@
   }
 
   @media screen and (min-width: 1320px){
-    width: 85%;
     margin: auto;
     row-gap: 50px;
   }

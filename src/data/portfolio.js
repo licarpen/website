@@ -28,7 +28,7 @@ export const portfolioPieces = [
     title: 'Plant Parenthood',
     image:plantsMain,
     technology: 'Python, NodeJS, MongoDB, JS, Raspbian',
-    description: 'A secure, server-side app for remote gathering of sensor data from an IoT device, build by a 5-person team in a 4-day sprint.',
+    description: 'A secure, server-side app for remote gathering of sensor data from an IoT device, built by a 5-person team in a 4-day sprint.',
     github: 'https://github.com/piParty/pi-party',
     site: null,
     contributions: ['Set up and integrated hardware', 'Developed security processes', 'Seeded and tested plant database', 'Wrote and tested plants routes', 'Gathered and posted sensor data to database']

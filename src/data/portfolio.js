@@ -47,7 +47,7 @@ export const portfolioPieces = [
     technology: 'Python, ReactJS',
     description: 'A collection of computational models that simulate physical systems from classical mechanics, electricity and magnetism, chaos, quantum mechanics, and statistical mechanics.',
     github: 'https://github.com/licarpen/computational-modeling',
-    site: null,
+    site: 'https://computationalmodeling.netlify.com',
     contributions: ['Compared errors in Euler and Euler-Comer approximation methods for modeling radioactive decay', 'Graphed chaotic behavior of two driven damped pendula', 'Graphed bifurcation and chaos of the logistic equation', 'Graphed Mandelbrot set fractal', 'Visualized interactions of sound waves', 'Modeled Pyrochlore lattice structure in 3D', 'Simulated knuckleball throw', 'Generated random walk in 1D', 'Approximated pi using Archimedes\' method', 'Compared integral approximation techniques', 'Modeled potential surrounding a hollow prism', 'Generated white noise']
   },
   { 
@@ -60,7 +60,7 @@ export const portfolioPieces = [
     contributions: ['Led team from ideation through MVP', 'Wrote and tested logic for seeding board with mines', 'Wrote and tested logic for board setup', 'Implemented and tested game play']
   },
   { 
-    title: 'Data Structures and Algorithms',
+    title: 'Data Structures & Algorithms',
     image: whiteboard,
     technology: 'JavaScript',
     description: 'Implementation of common data structures and algorithms in computer programming.',

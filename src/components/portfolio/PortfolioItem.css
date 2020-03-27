@@ -7,19 +7,19 @@
                        "image tech"
                        "image description"
                        "image contributions";
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: maxcontent;
   justify-content: stretch;
   grid-gap: 1.75vw;
   align-items: center;
-  border: white solid 3px;
   padding: 30px;
-  border-radius: 1em;
+  border-radius: 0.3em;
   
 
   img{
     grid-area: image;
-    width: 40vw;
-    border-radius: 1em;
+    width: 95%;
+    border-radius: 0.2em;
   }
 
   h2{
@@ -37,8 +37,8 @@
     margin: 1.5vw;
     padding: 0.75vw;
     font-size: 1.5vw;
-    border: 2px solid white;
     color: rgb(1, 41, 41);
+    background: rgb(174, 212, 209);
     border-radius: 1em;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
@@ -60,10 +60,15 @@
     font-size: 20px;
   }
 
+  .row{
+    grid-area: row;
+    color: blue;
+    background: blue;
+    border: 2px solid blue;
+  }
+
   .contributionsContainer{
     grid-area: contributions;
-    border: white solid 3px;
-    border-radius: 1em;
     padding: 20px;
   }
 
@@ -116,7 +121,7 @@
     }
 
     img{
-      width: 100%;
+      width: 90%;
       margin: auto;
     }
 

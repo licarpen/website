@@ -123,8 +123,7 @@
       padding: 3vw;
     }
 
-    .title{
-      font-size: 8vw;
+    .title{;
       margin-top: 2vw;
       margin-bottom: 6vw;
     }
@@ -133,7 +132,7 @@
     .links{
       margin-top: 4vw;
       margin-bottom: 4vw;
-      height: 5vw;
+      height: 30px;
     }
 
     a{
@@ -141,7 +140,7 @@
       padding: 2vw;
       padding-left: 5vw;
       padding-right: 5vw;
-      font-size: 4vw;
+      font-size: 16px;
     }
 
     img{
@@ -153,22 +152,21 @@
       width: 80%;
       font-size: 20px;
       margin: auto;
-      margin-top: 1vw;
-      margin-bottom: 1vw;
+      margin-top: 10;
+      margin-bottom: 10;
     }
 
     .description{
       font-size: 18px;
-      margin-top: 3vw;
-      margin-bottom: 3vw;
+      margin-top: 20px;
+      margin-bottom:20px;
     }
 
     .contributionsContainer{
       grid-area: contributions;
       margin: auto;
-      width: 77%;
-      margin-top: 3vw;
-      padding: 6vw;
+      width: 76%;
+      padding: 7%;
       background: rgb(156, 180, 178);
     }
   

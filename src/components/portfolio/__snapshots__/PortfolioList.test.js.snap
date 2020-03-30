@@ -60,6 +60,33 @@ exports[`PortfolioList component matches a snapshot when a single portfolio item
   </li>
   <li
     className="card"
+    key="Computational Models"
+  >
+    <Link
+      className="Link"
+      to="/Computational Models"
+    >
+      <h2
+        className="title"
+      >
+        Computational Models
+      </h2>
+      <div
+        className="imgDiv"
+      >
+        <img
+          src="/path/image"
+        />
+      </div>
+      <p
+        className="tech"
+      >
+        Python, ReactJS
+      </p>
+    </Link>
+  </li>
+  <li
+    className="card"
     key="Plant Parenthood"
   >
     <Link
@@ -87,6 +114,33 @@ exports[`PortfolioList component matches a snapshot when a single portfolio item
   </li>
   <li
     className="card"
+    key="Computer Vision"
+  >
+    <Link
+      className="Link"
+      to="/Computer Vision"
+    >
+      <h2
+        className="title"
+      >
+        Computer Vision
+      </h2>
+      <div
+        className="imgDiv"
+      >
+        <img
+          src="/path/image"
+        />
+      </div>
+      <p
+        className="tech"
+      >
+        Python, OpenCV, OpenVino Toolkit
+      </p>
+    </Link>
+  </li>
+  <li
+    className="card"
     key="Postman"
   >
     <Link
@@ -109,33 +163,6 @@ exports[`PortfolioList component matches a snapshot when a single portfolio item
         className="tech"
       >
         ReactJS
-      </p>
-    </Link>
-  </li>
-  <li
-    className="card"
-    key="Computational Models"
-  >
-    <Link
-      className="Link"
-      to="/Computational Models"
-    >
-      <h2
-        className="title"
-      >
-        Computational Models
-      </h2>
-      <div
-        className="imgDiv"
-      >
-        <img
-          src="/path/image"
-        />
-      </div>
-      <p
-        className="tech"
-      >
-        Python, ReactJS
       </p>
     </Link>
   </li>
@@ -256,6 +283,33 @@ exports[`PortfolioList component matches a snapshot when no portfolio piece has 
   </li>
   <li
     className="card"
+    key="Computational Models"
+  >
+    <Link
+      className="Link"
+      to="/Computational Models"
+    >
+      <h2
+        className="title"
+      >
+        Computational Models
+      </h2>
+      <div
+        className="imgDiv"
+      >
+        <img
+          src="/path/image"
+        />
+      </div>
+      <p
+        className="tech"
+      >
+        Python, ReactJS
+      </p>
+    </Link>
+  </li>
+  <li
+    className="card"
     key="Plant Parenthood"
   >
     <Link
@@ -283,6 +337,33 @@ exports[`PortfolioList component matches a snapshot when no portfolio piece has 
   </li>
   <li
     className="card"
+    key="Computer Vision"
+  >
+    <Link
+      className="Link"
+      to="/Computer Vision"
+    >
+      <h2
+        className="title"
+      >
+        Computer Vision
+      </h2>
+      <div
+        className="imgDiv"
+      >
+        <img
+          src="/path/image"
+        />
+      </div>
+      <p
+        className="tech"
+      >
+        Python, OpenCV, OpenVino Toolkit
+      </p>
+    </Link>
+  </li>
+  <li
+    className="card"
     key="Postman"
   >
     <Link
@@ -305,33 +386,6 @@ exports[`PortfolioList component matches a snapshot when no portfolio piece has 
         className="tech"
       >
         ReactJS
-      </p>
-    </Link>
-  </li>
-  <li
-    className="card"
-    key="Computational Models"
-  >
-    <Link
-      className="Link"
-      to="/Computational Models"
-    >
-      <h2
-        className="title"
-      >
-        Computational Models
-      </h2>
-      <div
-        className="imgDiv"
-      >
-        <img
-          src="/path/image"
-        />
-      </div>
-      <p
-        className="tech"
-      >
-        Python, ReactJS
       </p>
     </Link>
   </li>

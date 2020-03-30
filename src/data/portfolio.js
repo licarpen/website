@@ -5,6 +5,7 @@ import postmanMain from '../assets/postman/postman_main.png';
 import plantsMain from '../assets/plants/plants_main.png';
 import physicsMain from '../assets/physics/physics_main.png';
 import whiteboard from '../assets/DSA/whiteboard.png';
+import cars from '../assets/edge/cars.png';
 
 export const portfolioPieces = [
   { 
@@ -25,6 +26,15 @@ export const portfolioPieces = [
     contributions: ['Wrote fetch routes to 5 external APIs', 'Munged API data', 'Implemented user auth', 'Maintained state for user on front end', 'Filtered hike data based on user input', 'Built and tested components']
   },
   { 
+    title: 'Computational Models',
+    image:physicsMain,
+    technology: 'Python, ReactJS',
+    description: 'A collection of computational models that simulate physical systems from classical mechanics, electricity and magnetism, chaos, quantum mechanics, and statistical mechanics.',
+    github: 'https://github.com/licarpen/computational-modeling',
+    site: 'https://computationalmodeling.netlify.com',
+    contributions: ['Compared errors in Euler and Euler-Comer approximation methods for modeling radioactive decay', 'Graphed chaotic behavior of two driven damped pendula', 'Graphed bifurcation and chaos of the logistic equation', 'Graphed Mandelbrot set fractal', 'Visualized interactions of sound waves', 'Modeled Pyrochlore lattice structure in 3D', 'Simulated knuckleball throw', 'Generated random walk in 1D', 'Approximated pi using Archimedes\' method', 'Compared integral approximation techniques', 'Modeled potential surrounding a hollow prism', 'Generated white noise']
+  },
+  { 
     title: 'Plant Parenthood',
     image:plantsMain,
     technology: 'Python, NodeJS, MongoDB, JS, Raspbian',
@@ -33,22 +43,22 @@ export const portfolioPieces = [
     site: null,
     contributions: ['Set up and integrated hardware', 'Developed security processes', 'Seeded and tested plant database', 'Wrote and tested plants routes', 'Gathered and posted sensor data to database']
   },
+  {
+    title: 'Computer Vision',
+    image: cars,
+    technology: 'Python, OpenCV, OpenVino Toolkit',
+    description: 'Examples of using the Intel OpenVino toolkit to enable computer vision applications at the edge of computing, such as with IoT devices.  Implementations include gaining familiarity with the model optimizer, utilizing the inference engine, processing model output, and addressing communication with servers.  The image shown is taken from a video output that uses Single Shot MultiBox Detection for vehicles on a roadway to identify vehicles in each frame based on desired confidence threshold.',
+    github: 'https://github.com/licarpen/computer_vision',
+    site: null,
+    contributions: ['All (independent project)']
+  },
   { title: 'Postman',
     image:postmanMain,
     technology: 'ReactJS',
     description: 'A server-side client application for visualizing responses to requests',
     github: 'https://github.com/licarpen/postman',
     site: 'https://carpenterpostman.netlify.com/',
-    contributions: ['All']
-  },
-  { 
-    title: 'Computational Models',
-    image:physicsMain,
-    technology: 'Python, ReactJS',
-    description: 'A collection of computational models that simulate physical systems from classical mechanics, electricity and magnetism, chaos, quantum mechanics, and statistical mechanics.',
-    github: 'https://github.com/licarpen/computational-modeling',
-    site: 'https://computationalmodeling.netlify.com',
-    contributions: ['Compared errors in Euler and Euler-Comer approximation methods for modeling radioactive decay', 'Graphed chaotic behavior of two driven damped pendula', 'Graphed bifurcation and chaos of the logistic equation', 'Graphed Mandelbrot set fractal', 'Visualized interactions of sound waves', 'Modeled Pyrochlore lattice structure in 3D', 'Simulated knuckleball throw', 'Generated random walk in 1D', 'Approximated pi using Archimedes\' method', 'Compared integral approximation techniques', 'Modeled potential surrounding a hollow prism', 'Generated white noise']
+    contributions:  ['All (independent project)']
   },
   { 
     title: 'Minesweeper No. 2',
@@ -66,6 +76,6 @@ export const portfolioPieces = [
     description: 'Implementation of common data structures and algorithms in computer programming.',
     github: 'https://github.com/licarpen/data-structures-and-algorithms',
     site: null,
-    contributions: ['All']
+    contributions:  ['All (independent project)']
   }
 ];

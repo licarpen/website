@@ -12,15 +12,19 @@ const PortfolioItem = ({ match }) => {
 
   return (
     <div className={styles.PortfolioItem}>
-      <h2>{title}</h2>
-      <div className={styles.links}>
-        <a href={github} target='_blank' rel='noopener noreferrer' >GitHub</a>
-        {siteHtml}
+      <div className={styles.back}>
         <Link className={styles.Link} to={'/'}>Back</Link>
       </div>
+      <div className={styles.intro}>
+        <h2 className={styles.title}>{title}</h2>
+        <div className={styles.links}>
+          <a href={github} target='_blank' rel='noopener noreferrer' >GitHub</a>
+          {siteHtml}
+        </div>
+        <p className={styles.tech}>{technology}</p>
+        <p className={styles.description}>{description}</p>
+      </div>
       <img src={image}/>
-      <p className={styles.tech}>{technology}</p>
-      <p className={styles.description}>{description}</p>
       <div className={styles.contributionsContainer}>
         <h2 className={styles.contributionsTitle}>Contributions</h2>
         <ul className={styles.contributionList}>

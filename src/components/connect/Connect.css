@@ -5,9 +5,9 @@
   flex-direction: column;
   align-items: flex-start;
   width: 35%;
-  border: white 3px solid;
+  background: rgb(124, 150, 148);
   padding: 20px;
-  border-radius: 1em;
+  border-radius: 0.2em;
 
   a{
     font-size: 3vw;

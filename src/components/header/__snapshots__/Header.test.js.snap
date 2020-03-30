@@ -7,11 +7,16 @@ exports[`Header component matches a snapshot 1`] = `
   <NavigationBar
     className="NavigationBar"
   />
-  <h1>
-    CARPENTER CODE
-  </h1>
-  <h2>
-    Code By Lisa Carpenter
-  </h2>
+  <Link
+    className="Link"
+    to="/"
+  >
+    <h1>
+      CARPENTER CODE
+    </h1>
+    <h2>
+      Code By Lisa Carpenter
+    </h2>
+  </Link>
 </div>
 `;

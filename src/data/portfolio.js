@@ -6,6 +6,7 @@ import plantsMain from '../assets/plants/plants_main.png';
 import physicsMain from '../assets/physics/physics_main.png';
 import whiteboard from '../assets/DSA/whiteboard.png';
 import cars from '../assets/edge/cars.png';
+import github from '../assets/github/github.png';
 
 export const portfolioPieces = [
   { 
@@ -52,8 +53,16 @@ export const portfolioPieces = [
     site: null,
     contributions: ['All (independent project)']
   },
+  {
+    title: 'GitHub Viewer',
+    image: github,
+    technology: 'React/Redux, Redux-thunk',
+    github: 'https://github.com/licarpen/github-viewer',
+    site: 'https://github-user-viewer.netlify.com',
+    contributions: ['All (independent project)']
+  },
   { title: 'Postman',
-    image:postmanMain,
+    image: postmanMain,
     technology: 'ReactJS',
     description: 'A server-side client application for visualizing responses to requests',
     github: 'https://github.com/licarpen/postman',

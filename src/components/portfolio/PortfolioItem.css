@@ -12,8 +12,8 @@
   
   .intro{
     grid-area: intro;
-    background: rgb(156, 180, 178);
-    width: 80%;
+    background: rgb(68, 67, 67);
+    width: 60%;
     margin-top: 1vw;
     padding-top: 1vw;
     padding-bottom: 1vw;
@@ -47,9 +47,9 @@
 
   a{
     padding: 0.75vw;
-    color: white;
+    color: rgb(90, 89, 89);
     font-size: 1.5vw;
-    background: darkcyan;
+    background: rgb(230, 228, 228);
     border-radius: 1em;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
@@ -60,8 +60,8 @@
   }
 
   a:hover{
-    background: white;
-    color: darkcyan;
+    background: rgb(117, 116, 116);
+    color: white;
   }
 
   .description{
@@ -80,10 +80,10 @@
   .contributionsContainer{
     grid-area: contributions;
     margin: auto;
-    width: 80%;
+    width: 60%;
     margin-top: 1vw;
     padding: 2vw;
-    background: rgb(156, 180, 178);
+    background: rgb(68, 67, 67);
   }
 
   .contributionsTitle{
@@ -123,7 +123,7 @@
       padding: 3vw;
     }
 
-    .title{;
+    .title{
       margin-top: 2vw;
       margin-bottom: 6vw;
     }
@@ -167,7 +167,6 @@
       margin: auto;
       width: 76%;
       padding: 7%;
-      background: rgb(156, 180, 178);
     }
   
     .contributionsTitle{

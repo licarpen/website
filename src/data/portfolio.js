@@ -7,6 +7,7 @@ import physicsMain from '../assets/physics/physics_main.png';
 import whiteboard from '../assets/DSA/whiteboard.png';
 import cars from '../assets/edge/cars.png';
 import github from '../assets/github/github.png';
+import authentication from '../assets/authentication/authentication.png';
 
 export const portfolioPieces = [
   { 
@@ -57,14 +58,24 @@ export const portfolioPieces = [
     title: 'GitHub Viewer',
     image: github,
     technology: 'React/Redux, Redux-thunk',
+    description: 'An exercise in using the react-redux methodology.  This app allows a user to search for a github user and display their public info and repos.  Redux-thunk is used to resolve fetches to the external github api.',
     github: 'https://github.com/licarpen/github-viewer',
     site: 'https://github-user-viewer.netlify.com',
+    contributions: ['All (independent project)']
+  },
+  {
+    title: 'User Authentication',
+    image: authentication,
+    technology: 'NodeJS, MongoDB, express, bcryptjs, cookie-parser, jsonwebtoken, supertest',
+    description: 'An exericise in implementing user authentication on the backend with signup, login, and verification. Passwords are hashed and session cookies are set on signup/login.  Supertest is used for testing.',
+    github: 'https://github.com/licarpen/authentication',
+    site: null,
     contributions: ['All (independent project)']
   },
   { title: 'Postman',
     image: postmanMain,
     technology: 'ReactJS',
-    description: 'A server-side client application for visualizing responses to requests',
+    description: 'An api server client application for visualizing responses to requests',
     github: 'https://github.com/licarpen/postman',
     site: 'https://carpenterpostman.netlify.com/',
     contributions:  ['All (independent project)']

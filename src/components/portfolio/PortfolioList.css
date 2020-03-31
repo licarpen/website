@@ -2,10 +2,10 @@
   margin: auto;
   margin-top: 3vw;
   margin-bottom: 3vw;
-  width: 85%;
+  width: 95%;
   display: grid;
   gap: 30px;
-  grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   justify-items: center;
 
   .Link{
@@ -19,9 +19,9 @@
   }
 
   .card{
-    width: 300px;
-    height: 335px;
-    background: rgb(124, 150, 148);
+    width: 280px;
+    height: 350px;
+    background: rgb(68, 67, 67);
     padding: 6px;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -36,7 +36,7 @@
 
   .card:hover{
     img{
-      width: 270px; 
+      width: 260px; 
       padding: 0px;
       padding-top: 8px;
     }
@@ -49,7 +49,7 @@
     display: block;
     padding-bottom: 3px;
     margin: auto;
-    width: 260px;
+    width: 250px;
     padding: 10px;
     transition: width 0.4s;
   }

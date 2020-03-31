@@ -8,13 +8,13 @@
   h1{
     margin: 10px;
     font-size: 4vw;
-    color: white;
+    color: rgb(68, 67, 67);
   }
 
   h2{
     margin-bottom: 5px;
     font-size: 2vw;
-    color: white;
+    color: rgb(68, 67, 67);
   }
 
   @media screen and (max-width: 600px){

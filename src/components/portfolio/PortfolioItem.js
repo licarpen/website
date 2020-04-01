@@ -13,7 +13,7 @@ const PortfolioItem = ({ match }) => {
       <h2 className={styles.contributionsTitle}>Contributions</h2>
       <ul className={styles.contributionList}>
         {contributions.map((i, k) => <li key={k}>{i}</li>)}
-      </ul>)
+      </ul>
     </> : null;
 
 

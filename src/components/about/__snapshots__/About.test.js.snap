@@ -4,6 +4,9 @@ exports[`About component matches a snapshot 1`] = `
 <div
   className="About"
 >
+  <img
+    src="/path/image"
+  />
   <p>
     Lisa Carpenter is a software engineer based in Portland, Oregon.  She absolutely loves to code.  Her expertise in physics and mathematics enables her to craft logical, eloquent solutions to complex problems.  She writes readable, tested code and is in search of an incredible team.
   </p>

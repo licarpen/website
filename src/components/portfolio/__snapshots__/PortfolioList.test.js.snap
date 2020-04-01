@@ -141,6 +141,114 @@ exports[`PortfolioList component matches a snapshot when a single portfolio item
   </li>
   <li
     className="card"
+    key="Overripe Bananas"
+  >
+    <Link
+      className="Link"
+      to="/Overripe Bananas"
+    >
+      <h2
+        className="title"
+      >
+        Overripe Bananas
+      </h2>
+      <div
+        className="imgDiv"
+      >
+        <img
+          src="/path/image"
+        />
+      </div>
+      <p
+        className="tech"
+      >
+        NodeJS, mongoose, MongoDB, express, bcryptjs, jsonwebtoken, cookie-parser
+      </p>
+    </Link>
+  </li>
+  <li
+    className="card"
+    key="GitHub Viewer"
+  >
+    <Link
+      className="Link"
+      to="/GitHub Viewer"
+    >
+      <h2
+        className="title"
+      >
+        GitHub Viewer
+      </h2>
+      <div
+        className="imgDiv"
+      >
+        <img
+          src="/path/image"
+        />
+      </div>
+      <p
+        className="tech"
+      >
+        React/Redux, Redux-thunk
+      </p>
+    </Link>
+  </li>
+  <li
+    className="card"
+    key="User Authentication"
+  >
+    <Link
+      className="Link"
+      to="/User Authentication"
+    >
+      <h2
+        className="title"
+      >
+        User Authentication
+      </h2>
+      <div
+        className="imgDiv"
+      >
+        <img
+          src="/path/image"
+        />
+      </div>
+      <p
+        className="tech"
+      >
+        NodeJS, MongoDB, express, bcryptjs, cookie-parser, jsonwebtoken, supertest
+      </p>
+    </Link>
+  </li>
+  <li
+    className="card"
+    key="To Do List"
+  >
+    <Link
+      className="Link"
+      to="/To Do List"
+    >
+      <h2
+        className="title"
+      >
+        To Do List
+      </h2>
+      <div
+        className="imgDiv"
+      >
+        <img
+          src="/path/image"
+        />
+      </div>
+      <p
+        className="tech"
+      >
+        PostgreSQL, NodeJS, JavaScript, bcryptjs, jsonwebtoken
+      </p>
+    </Link>
+  </li>
+  <li
+    className="card"
     key="Postman"
   >
     <Link
@@ -359,6 +467,114 @@ exports[`PortfolioList component matches a snapshot when no portfolio piece has 
         className="tech"
       >
         Python, OpenCV, OpenVino Toolkit
+      </p>
+    </Link>
+  </li>
+  <li
+    className="card"
+    key="Overripe Bananas"
+  >
+    <Link
+      className="Link"
+      to="/Overripe Bananas"
+    >
+      <h2
+        className="title"
+      >
+        Overripe Bananas
+      </h2>
+      <div
+        className="imgDiv"
+      >
+        <img
+          src="/path/image"
+        />
+      </div>
+      <p
+        className="tech"
+      >
+        NodeJS, mongoose, MongoDB, express, bcryptjs, jsonwebtoken, cookie-parser
+      </p>
+    </Link>
+  </li>
+  <li
+    className="card"
+    key="GitHub Viewer"
+  >
+    <Link
+      className="Link"
+      to="/GitHub Viewer"
+    >
+      <h2
+        className="title"
+      >
+        GitHub Viewer
+      </h2>
+      <div
+        className="imgDiv"
+      >
+        <img
+          src="/path/image"
+        />
+      </div>
+      <p
+        className="tech"
+      >
+        React/Redux, Redux-thunk
+      </p>
+    </Link>
+  </li>
+  <li
+    className="card"
+    key="User Authentication"
+  >
+    <Link
+      className="Link"
+      to="/User Authentication"
+    >
+      <h2
+        className="title"
+      >
+        User Authentication
+      </h2>
+      <div
+        className="imgDiv"
+      >
+        <img
+          src="/path/image"
+        />
+      </div>
+      <p
+        className="tech"
+      >
+        NodeJS, MongoDB, express, bcryptjs, cookie-parser, jsonwebtoken, supertest
+      </p>
+    </Link>
+  </li>
+  <li
+    className="card"
+    key="To Do List"
+  >
+    <Link
+      className="Link"
+      to="/To Do List"
+    >
+      <h2
+        className="title"
+      >
+        To Do List
+      </h2>
+      <div
+        className="imgDiv"
+      >
+        <img
+          src="/path/image"
+        />
+      </div>
+      <p
+        className="tech"
+      >
+        PostgreSQL, NodeJS, JavaScript, bcryptjs, jsonwebtoken
       </p>
     </Link>
   </li>

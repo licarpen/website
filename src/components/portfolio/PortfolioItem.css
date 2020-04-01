@@ -81,11 +81,10 @@
 
   .contributionsContainer{
     grid-area: contributions;
-    width: 90%;
+    width: 97%;
     margin: auto;
     justify-self: center;
     margin-top: 1vw;
-    padding: 1.5vw;
     background: rgb(68, 67, 67);
   }
 
@@ -95,13 +94,15 @@
     margin: auto;
     margin-bottom: 20px;
     width: 50%;
+    padding-top: 20px;
   }
 
   .contributionList{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     width: 100%;
-    padding-left: 10px;
+    padding: 15px;
+    padding-left: 30px;
     margin-left: 1vw;
   }
 

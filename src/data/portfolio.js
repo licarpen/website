@@ -54,15 +54,16 @@ export const portfolioPieces = [
     description: 'Examples of using the Intel OpenVino toolkit to enable computer vision applications at the edge of computing, such as with IoT devices.  Implementations include gaining familiarity with the model optimizer, utilizing the inference engine, processing model output, and addressing communication with servers.  The image shown is taken from a video output that uses Single Shot MultiBox Detection for vehicles on a roadway to identify vehicles in each frame based on desired confidence threshold.',
     github: 'https://github.com/licarpen/computer_vision',
     site: null,
-    contributions: ['All (independent project)']
+    contributions: null
   },
   {
     title: 'Overripe Bananas',
     image: bananas,
+    description: 'Overripe Bananas is a RESTful movie review API built with a non-relational database (mongoDB), nodeJS, mongoose, and express. Developer tools include easy seeding of a development database with desired number of films, studios, reviewers, and reviews.  Authentication is implemented with bcryptjs, jsonwebtoke, and cookie-parser.  All routes and models are tested using jest with the aid of data helpers and supertest.',
     technology: 'NodeJS, mongoose, MongoDB, express, bcryptjs, jsonwebtoken, cookie-parser',
     github: 'https://github.com/licarpen/overripe-bananas',
     site: null,
-    contributions: ['All (independent project)']
+    contributions: null
   },
   {
     title: 'GitHub Viewer',
@@ -71,7 +72,7 @@ export const portfolioPieces = [
     description: 'An exercise in using the react-redux methodology.  This app allows a user to search for a github user and display their public info and repos.  Redux-thunk is used to resolve fetches to the external github api.',
     github: 'https://github.com/licarpen/github-viewer',
     site: 'https://github-user-viewer.netlify.com',
-    contributions: ['All (independent project)']
+    contributions: null
   },
   {
     title: 'User Authentication',
@@ -80,7 +81,7 @@ export const portfolioPieces = [
     description: 'An exericise in implementing user authentication on the backend with signup, login, and verification. Passwords are hashed and session cookies are set on signup/login.  Jest and supertest are used for testing.',
     github: 'https://github.com/licarpen/authentication',
     site: null,
-    contributions: ['All (independent project)']
+    contributions: null
   },
   {
     title: 'To Do List',
@@ -89,7 +90,7 @@ export const portfolioPieces = [
     description: 'This full stack application allows users to add, edit, and delete items from a to do list.  The app makes use of a component-like architecture built with JavaScript.  Development features include the ability to create tables, drop tables, and load seed data with respect to the postgreSQL database. Error messages are intentionally clear and unambiguous.  The authentication process includes hashing passwords and utilizing ensure-auth middleware to preserve user login. Models and routes are tested using jest.',
     github: 'https://github.com/licarpen/to-do',
     site: 'https://desolate-mountain-09873.herokuapp.com/',
-    contributions: ['All (independent project']
+    contributions: null
   },
   { title: 'Postman',
     image: postmanMain,
@@ -97,7 +98,7 @@ export const portfolioPieces = [
     description: 'An api server client application for visualizing responses to requests',
     github: 'https://github.com/licarpen/postman',
     site: 'https://carpenterpostman.netlify.com/',
-    contributions:  ['All (independent project)']
+    contributions: null
   },
   { 
     title: 'Minesweeper No. 2',
@@ -112,9 +113,9 @@ export const portfolioPieces = [
     title: 'Data Structures & Algorithms',
     image: whiteboard,
     technology: 'JavaScript',
-    description: 'Implementation of common data structures and algorithms in computer programming.',
+    description: 'Tested implementation of a variety of array methods, linked lists, queues, stacks, binary search trees, search and sort algorithms, recursion, and more.  Includes selected exercises from Cracking the Coding Interview.',
     github: 'https://github.com/licarpen/data-structures-and-algorithms',
     site: null,
-    contributions:  ['All (independent project)']
+    contributions: null
   }
 ];

@@ -62,6 +62,7 @@
 
   @media screen and (min-width: 1320px){
     margin: auto;
+    width: 80%;
     row-gap: 50px;
   }
 }

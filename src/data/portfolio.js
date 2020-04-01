@@ -8,6 +8,8 @@ import whiteboard from '../assets/DSA/whiteboard.png';
 import cars from '../assets/edge/cars.png';
 import github from '../assets/github/github.png';
 import authentication from '../assets/authentication/authentication.png';
+import todo from '../assets/todo/todo.png';
+import bananas from '../assets/bananas/bananas.png';
 
 export const portfolioPieces = [
   { 
@@ -55,6 +57,14 @@ export const portfolioPieces = [
     contributions: ['All (independent project)']
   },
   {
+    title: 'Overripe Bananas',
+    image: bananas,
+    technology: 'NodeJS, mongoose, MongoDB, express, bcryptjs, jsonwebtoken, cookie-parser',
+    github: 'https://github.com/licarpen/overripe-bananas',
+    site: null,
+    contributions: ['All (independent project)']
+  },
+  {
     title: 'GitHub Viewer',
     image: github,
     technology: 'React/Redux, Redux-thunk',
@@ -67,10 +77,19 @@ export const portfolioPieces = [
     title: 'User Authentication',
     image: authentication,
     technology: 'NodeJS, MongoDB, express, bcryptjs, cookie-parser, jsonwebtoken, supertest',
-    description: 'An exericise in implementing user authentication on the backend with signup, login, and verification. Passwords are hashed and session cookies are set on signup/login.  Supertest is used for testing.',
+    description: 'An exericise in implementing user authentication on the backend with signup, login, and verification. Passwords are hashed and session cookies are set on signup/login.  Jest and supertest are used for testing.',
     github: 'https://github.com/licarpen/authentication',
     site: null,
     contributions: ['All (independent project)']
+  },
+  {
+    title: 'To Do List',
+    image: todo,
+    technology: 'PostgreSQL, NodeJS, JavaScript, bcryptjs, jsonwebtoken',
+    description: 'This full stack application allows users to add, edit, and delete items from a to do list.  The app makes use of a component-like architecture built with JavaScript.  Development features include the ability to create tables, drop tables, and load seed data with respect to the postgreSQL database. Error messages are intentionally clear and unambiguous.  The authentication process includes hashing passwords and utilizing ensure-auth middleware to preserve user login. Models and routes are tested using jest.',
+    github: 'https://github.com/licarpen/to-do',
+    site: 'https://desolate-mountain-09873.herokuapp.com/',
+    contributions: ['All (independent project']
   },
   { title: 'Postman',
     image: postmanMain,

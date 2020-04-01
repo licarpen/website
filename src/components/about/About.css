@@ -1,21 +1,36 @@
 .About{
-  width: 90%;
+  width: 80%;
   margin: auto;
-  margin-top: 30px;
-  border-radius: 0.4em;
-  background: rgb(124, 150, 148);
-  padding: 4vw;
+  margin-top: 25px;
+  border-radius: 0.2em;
+  background: rgb(68, 67, 67);
+  padding: 25px;
 
-  p{
-    font-size: 4vw;
-    line-height: 5vw;
+  img{
+    display: block;
+    width: 60%;
+    margin: auto;
+    margin-bottom: 20px;
+    border: 3px white solid;
   }
 
-  @media screen and (min-width: 600px){
-    width: 60%;
+  p{
+    text-align: left;
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  @media screen and (min-width: 1000px){
+    width: 40%;
+    img{
+      width: 30%;
+      float: left;
+      margin-right: 30px;
+      margin-bottom: 0px;
+    }
     p{
-      font-size: 24px;
-      line-height: 34px;
+      font-size: 20px;
+      line-height: 26px;
     }
   }
 }

@@ -5,24 +5,24 @@
   margin-top: 10px;
   
   .NavLink{
-    border: 3px white solid;
-    color: white;
+    color:  rgb(68, 67, 67);
+    background: rgb(211, 210, 210);
     border-radius: .6em;
     padding: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
     margin-left: 10px;
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
   }
   .NavLink:hover{
-    color: darkcyan;
-    background: white;
+    color: white;
+    background:rgb(68, 67, 67);
   }
   .activeNavLink{
-    color: darkcyan;
-    background: white;
+    color: white;
+    background: rgb(68, 67, 67);
     outline: none;
   }
 

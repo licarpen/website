@@ -8,7 +8,14 @@ const PortfolioItem = ({ match }) => {
   const { title, image, technology, description, github, site, contributions } = usePortfolio(match.params.title);
 
   const siteHtml = site ? <a href={site} target='_blank' rel='noopener noreferrer' >Site</a> : '';
-  const contributionsHtml = contributions.map((i, k) => <li key={k}>{i}</li>);
+  const contributionsHtml = contributions ? 
+    <>
+      <h2 className={styles.contributionsTitle}>Contributions</h2>
+      <ul className={styles.contributionList}>
+        {contributions.map((i, k) => <li key={k}>{i}</li>)}
+      </ul>)
+    </> : null;
+
 
   return (
     <div className={styles.PortfolioItem}>
@@ -26,10 +33,7 @@ const PortfolioItem = ({ match }) => {
       </div>
       <img src={image}/>
       <div className={styles.contributionsContainer}>
-        <h2 className={styles.contributionsTitle}>Contributions</h2>
-        <ul className={styles.contributionList}>
-          {contributionsHtml}
-        </ul>
+        {contributionsHtml}
       </div>
     </div>
   );

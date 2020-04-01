@@ -5,8 +5,8 @@
   flex-direction: column;
   align-items: flex-start;
   width: 35%;
-  background: rgb(124, 150, 148);
-  padding: 20px;
+  background: rgb(68, 67, 67);
+  padding: 18px;
   border-radius: 0.2em;
 
   a{
@@ -31,10 +31,10 @@
   @media screen and (max-width: 450px){
     width: 80%;
     img{
-      width: 60px;
+      width: 50px;
     }
     a{
-      font-size: 30px;
+      font-size: 26px;
     }
     .email{
       font-size: 16px;

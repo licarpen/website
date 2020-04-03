@@ -33,7 +33,7 @@ export const portfolioPieces = [
     description: 'An interactive data visualization app to celebrate pi. Built by a 5-person team in a 7-day sprint.',
     github: 'https://github.com/plot-a-pi/pi',
     site: 'https://plot-a-pi-prod.firebaseapp.com/',
-    contributions: ['Led team from ideation through development to production', 'Generated D3 data visualizations', 'Implemented Monte Carlo simulation', 'Actively maintaining and improving app functionality as a resource for educators']
+    contributions: ['Led team from ideation through development to production', 'Generated D3 interactive data visualizations', 'Implemented Monte Carlo simulation', 'Converted mobile app to fully responsive design', 'Integrated unit conversion functionality with Redux', 'Actively maintaining and improving app functionality as a resource for educators']
   },
   { title: 'Treks N Trails',
     image: treksSearch,

@@ -34,7 +34,7 @@ export const portfolioPieces = [
     github: 'https://github.com/plot-a-pi/pi',
     site: 'https://plot-a-pi-prod.firebaseapp.com/',
     contributions: ['Led team from ideation through development to production', 'Generated D3 interactive data visualizations', 'Implemented Monte Carlo simulation', 'Converted mobile app to fully responsive design', 'Integrated unit conversion functionality with Redux', 'Actively maintaining and improving app functionality as a resource for educators'],
-    takeaways: ['We initially were excited to use Firestore for our database needs.  Halfway through through the sprint, we unexpectedly reached the maximum number of free reads and quickly realized that in order to make this app available broadly and freely, we would need to change course and develop a backend and use socket.IO for realtime updates.  While this was a stressful change to make less than 72 hours from our MVP deadline (not only was Firestore completely new to us, but we had no experience with socket.IO), we came together as a team and made it happen.', 'The immutability of React state presents a problem at orders of magnitude greater than 3 for the Monte Carlo simulation, as the array of data points continues to grow. I\'m currently working on a solution that preserves all of the data for the csv download while trimming down data to be stored in state for the purpose of being displayed to the user.', 'Prior to this project, I had no experience using D3, let alone D3 with React hooks.  I assumed it would be quick to pick up, but soon realized that in order to take advantage of the power of the library and integrate it with React, I needed to start from the beginning.  While this was a lot to take on in the middle of a week-long sprint, it was incredibly rewarding and an unbelievable amount of fun.  It\'s safe to say I\'ve chosen the right career by how much dancing and celebrating transpired during this week.', 'I underestimated the complexity of this app and how long it would take to reach an MVP worthy of launching to the public, and that\'s ok. I am proud of what we have accomplished thus far and it continues to challenge me as we work towards Pi Day 2021.']
+    takeaways: ['While D3 can be learned and implemented in a day, it would be best to give yourself two.', 'The immutability of React state presents a time complexity challenge when working with large sets of data.', 'If you find yourself dancing while coding, you are in the right profession.', 'Firestore\'s free version does not provide enough data reads for an applictation of this magnitude.', 'It\'s possible (but not advisable) to switch from Firestore to building a backend + implementing socket.IO less than 72 hours before MVP launch.', 'Responsive design is a rewarding and never-ending challenge for a detail-oreinted perfectionist']
   },
   { title: 'Treks N Trails',
     image: treksSearch,
@@ -44,7 +44,7 @@ export const portfolioPieces = [
     github: 'https://github.com/Plant-Parenthood/treks-n-tents',
     site: 'https://treksntrails.herokuapp.com/index.html?redirect=%2F',
     contributions: ['Wrote fetch routes to 5 external APIs', 'Munged API data', 'Implemented user auth', 'Maintained state for user on front end', 'Filtered hike data based on user input', 'Built and tested components'],
-    takeaways: ['We initially set out to make a plant care app using a plants api.  Half a day into this project, we came to terms with the fact that no api was robust enough to be feasible for our vision. As a team, we had to go back to the drawing board and come up with a new idea that we all were excited about while the clock was ticking.  While it was stressful, we kept focused and grounded as a team, shifting into a new project efficiently.']
+    takeaways: null
   },
   { 
     title: 'Computational Models',
@@ -54,7 +54,8 @@ export const portfolioPieces = [
     description: 'A collection of computational models that simulate physical systems from classical mechanics, electricity and magnetism, chaos, quantum mechanics, and statistical mechanics.',
     github: 'https://github.com/licarpen/computational-modeling',
     site: 'https://computationalmodeling.netlify.com',
-    contributions: ['Compared errors in Euler and Euler-Comer approximation methods for modeling radioactive decay', 'Graphed chaotic behavior of two driven damped pendula', 'Graphed bifurcation and chaos of the logistic equation', 'Graphed Mandelbrot set fractal', 'Visualized interactions of sound waves', 'Modeled Pyrochlore lattice structure in 3D', 'Simulated knuckleball throw', 'Generated random walk in 1D', 'Approximated pi using Archimedes\' method', 'Compared integral approximation techniques', 'Modeled potential surrounding a hollow prism', 'Generated white noise']
+    contributions: ['Compared errors in Euler and Euler-Comer approximation methods for modeling radioactive decay', 'Graphed chaotic behavior of two driven damped pendula', 'Graphed bifurcation and chaos of the logistic equation', 'Graphed Mandelbrot set fractal', 'Visualized interactions of sound waves', 'Modeled Pyrochlore lattice structure in 3D', 'Simulated knuckleball throw', 'Generated random walk in 1D', 'Approximated pi using Archimedes\' method', 'Compared integral approximation techniques', 'Modeled potential surrounding a hollow prism', 'Generated white noise'],
+    takeaways: null
   },
   { 
     title: 'Plant Parenthood',
@@ -65,7 +66,7 @@ export const portfolioPieces = [
     github: 'https://github.com/piParty/pi-party',
     site: null,
     contributions: ['Set up and integrated hardware', 'Developed security processes', 'Seeded and tested plant database', 'Wrote and tested plants routes', 'Gathered and posted sensor data to database'],
-    takeaways: ['Working with hardware is hard!', 'Adversity snuck up on us repeatedly and insidiously during this sprint. One day, we were up and running and the next we could no longer connect to the Raspberry Pis.  After severeal hours troubleshooting, we discovered that a new access point had been added to the network the night prior and our inability to connect was due to a configuration beyond our control. The takeaway? Ask for help sooner, especially when you are confident that you are doing everything correctly.', 'After several hours trying to ssh into the pi, it became clear that ']
+    takeaways: ['Working in vertical slices is key to achieving MVP.', 'Working with hardware is hard.', 'One network may have multiple access points', 'Some networks have Secure Shell permanently disabled']
   },
   {
     title: 'Computer Vision',
@@ -75,7 +76,8 @@ export const portfolioPieces = [
     description: 'Examples of using the Intel OpenVino toolkit to enable computer vision applications at the edge of computing, such as with IoT devices.  Implementations include gaining familiarity with the model optimizer, utilizing the inference engine, processing model output, and addressing communication with servers.  The image shown is taken from a video output that uses Single Shot MultiBox Detection for vehicles on a roadway to identify vehicles in each frame based on desired confidence threshold.',
     github: 'https://github.com/licarpen/computer_vision',
     site: null,
-    contributions: null
+    contributions: null,
+    takeaways: null
   },
   {
     title: 'Overripe Bananas',

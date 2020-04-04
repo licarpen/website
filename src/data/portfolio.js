@@ -96,7 +96,6 @@ export const portfolioPieces = [
     technology: 'React/Redux, Redux-thunk',
     description: 'An exercise in using the react-redux methodology.  This app allows a user to search for a github user and display their public info and repos.  Redux-thunk is used to resolve fetches to the external github api.',
     github: 'https://github.com/licarpen/github-viewer',
-    site: 'https://github-user-viewer.netlify.com',
     contributions: null
   },
   {

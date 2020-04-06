@@ -31,7 +31,7 @@ const PortfolioItem = ({ match }) => {
         <p className={styles.tech}>{technology}</p>
         <p className={styles.description}>{description}</p>
       </div>
-      <img src={image}/>
+      <img src={image} alt={title} />
       <div className={styles.contributionsContainer}>
         {contributionsHtml}
       </div>

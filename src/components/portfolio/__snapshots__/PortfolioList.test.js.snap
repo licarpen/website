@@ -21,6 +21,7 @@ exports[`PortfolioList component matches a snapshot when a single portfolio item
         className="imgDiv"
       >
         <img
+          alt="Plot a Pi"
           src="/path/image"
         />
       </div>
@@ -48,6 +49,7 @@ exports[`PortfolioList component matches a snapshot when a single portfolio item
         className="imgDiv"
       >
         <img
+          alt="Treks N Trails"
           src="/path/image"
         />
       </div>
@@ -75,6 +77,7 @@ exports[`PortfolioList component matches a snapshot when a single portfolio item
         className="imgDiv"
       >
         <img
+          alt="Computational Models"
           src="/path/image"
         />
       </div>
@@ -102,6 +105,7 @@ exports[`PortfolioList component matches a snapshot when a single portfolio item
         className="imgDiv"
       >
         <img
+          alt="Plant Parenthood"
           src="/path/image"
         />
       </div>
@@ -129,6 +133,7 @@ exports[`PortfolioList component matches a snapshot when a single portfolio item
         className="imgDiv"
       >
         <img
+          alt="Computer Vision"
           src="/path/image"
         />
       </div>
@@ -156,6 +161,7 @@ exports[`PortfolioList component matches a snapshot when a single portfolio item
         className="imgDiv"
       >
         <img
+          alt="Overripe Bananas"
           src="/path/image"
         />
       </div>
@@ -183,6 +189,7 @@ exports[`PortfolioList component matches a snapshot when a single portfolio item
         className="imgDiv"
       >
         <img
+          alt="GitHub Viewer"
           src="/path/image"
         />
       </div>
@@ -210,6 +217,7 @@ exports[`PortfolioList component matches a snapshot when a single portfolio item
         className="imgDiv"
       >
         <img
+          alt="User Authentication"
           src="/path/image"
         />
       </div>
@@ -237,6 +245,7 @@ exports[`PortfolioList component matches a snapshot when a single portfolio item
         className="imgDiv"
       >
         <img
+          alt="To Do List"
           src="/path/image"
         />
       </div>
@@ -264,6 +273,7 @@ exports[`PortfolioList component matches a snapshot when a single portfolio item
         className="imgDiv"
       >
         <img
+          alt="Postman"
           src="/path/image"
         />
       </div>
@@ -291,6 +301,7 @@ exports[`PortfolioList component matches a snapshot when a single portfolio item
         className="imgDiv"
       >
         <img
+          alt="Minesweeper No. 2"
           src="/path/image"
         />
       </div>
@@ -318,6 +329,7 @@ exports[`PortfolioList component matches a snapshot when a single portfolio item
         className="imgDiv"
       >
         <img
+          alt="Data Structures & Algorithms"
           src="/path/image"
         />
       </div>
@@ -352,6 +364,7 @@ exports[`PortfolioList component matches a snapshot when no portfolio piece has 
         className="imgDiv"
       >
         <img
+          alt="Plot a Pi"
           src="/path/image"
         />
       </div>
@@ -379,6 +392,7 @@ exports[`PortfolioList component matches a snapshot when no portfolio piece has 
         className="imgDiv"
       >
         <img
+          alt="Treks N Trails"
           src="/path/image"
         />
       </div>
@@ -406,6 +420,7 @@ exports[`PortfolioList component matches a snapshot when no portfolio piece has 
         className="imgDiv"
       >
         <img
+          alt="Computational Models"
           src="/path/image"
         />
       </div>
@@ -433,6 +448,7 @@ exports[`PortfolioList component matches a snapshot when no portfolio piece has 
         className="imgDiv"
       >
         <img
+          alt="Plant Parenthood"
           src="/path/image"
         />
       </div>
@@ -460,6 +476,7 @@ exports[`PortfolioList component matches a snapshot when no portfolio piece has 
         className="imgDiv"
       >
         <img
+          alt="Computer Vision"
           src="/path/image"
         />
       </div>
@@ -487,6 +504,7 @@ exports[`PortfolioList component matches a snapshot when no portfolio piece has 
         className="imgDiv"
       >
         <img
+          alt="Overripe Bananas"
           src="/path/image"
         />
       </div>
@@ -514,6 +532,7 @@ exports[`PortfolioList component matches a snapshot when no portfolio piece has 
         className="imgDiv"
       >
         <img
+          alt="GitHub Viewer"
           src="/path/image"
         />
       </div>
@@ -541,6 +560,7 @@ exports[`PortfolioList component matches a snapshot when no portfolio piece has 
         className="imgDiv"
       >
         <img
+          alt="User Authentication"
           src="/path/image"
         />
       </div>
@@ -568,6 +588,7 @@ exports[`PortfolioList component matches a snapshot when no portfolio piece has 
         className="imgDiv"
       >
         <img
+          alt="To Do List"
           src="/path/image"
         />
       </div>
@@ -595,6 +616,7 @@ exports[`PortfolioList component matches a snapshot when no portfolio piece has 
         className="imgDiv"
       >
         <img
+          alt="Postman"
           src="/path/image"
         />
       </div>
@@ -622,6 +644,7 @@ exports[`PortfolioList component matches a snapshot when no portfolio piece has 
         className="imgDiv"
       >
         <img
+          alt="Minesweeper No. 2"
           src="/path/image"
         />
       </div>
@@ -649,6 +672,7 @@ exports[`PortfolioList component matches a snapshot when no portfolio piece has 
         className="imgDiv"
       >
         <img
+          alt="Data Structures & Algorithms"
           src="/path/image"
         />
       </div>

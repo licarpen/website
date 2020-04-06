@@ -12,7 +12,7 @@ exports[`Connect component matches a snapshot 1`] = `
     <img
       src="/path/image"
     />
-    GitHub
+    /licarpen
   </a>
   <a
     href="https://www.linkedin.com/in/lisacarpenter256/"
@@ -22,7 +22,7 @@ exports[`Connect component matches a snapshot 1`] = `
     <img
       src="/path/image"
     />
-    LinkedIn
+    /lisacarpenter256
   </a>
   <a
     className="email"

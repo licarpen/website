@@ -33,7 +33,8 @@ export const portfolioPieces = [
     description: 'An interactive data visualization app to celebrate pi. Built by a 5-person team in a 7-day sprint.',
     github: 'https://github.com/plot-a-pi/pi',
     site: 'https://plot-a-pi-prod.firebaseapp.com/',
-    contributions: ['Led team from ideation through development to production', 'Generated D3 data visualizations', 'Implemented Monte Carlo simulation', 'Actively maintaining and improving app functionality as a resource for educators']
+    contributions: ['Led team from ideation through development to production', 'Generated D3 interactive data visualizations', 'Implemented Monte Carlo simulation', 'Converted mobile app to fully responsive design', 'Integrated unit conversion functionality with Redux', 'Actively maintaining and improving app functionality as a resource for educators'],
+    takeaways: ['While D3 can be learned and implemented in a day, it would be best to give yourself two.', 'The immutability of React state presents a time complexity challenge when working with large sets of data.', 'If you find yourself dancing while coding, you are in the right profession.', 'Firestore\'s free version does not provide enough data reads for an applictation of this magnitude.', 'It\'s possible (but not advisable) to switch from Firestore to building a backend + implementing socket.IO less than 72 hours before MVP launch.', 'Responsive design is a rewarding and never-ending challenge for a detail-oreinted perfectionist']
   },
   { title: 'Treks N Trails',
     image: treksSearch,
@@ -42,7 +43,8 @@ export const portfolioPieces = [
     description: 'A full stack, mobile-responsive hiking and camping app built by a 6-person team in a 4-day sprint.',
     github: 'https://github.com/Plant-Parenthood/treks-n-tents',
     site: 'https://treksntrails.herokuapp.com/index.html?redirect=%2F',
-    contributions: ['Wrote fetch routes to 5 external APIs', 'Munged API data', 'Implemented user auth', 'Maintained state for user on front end', 'Filtered hike data based on user input', 'Built and tested components']
+    contributions: ['Wrote fetch routes to 5 external APIs', 'Munged API data', 'Implemented user auth', 'Maintained state for user on front end', 'Filtered hike data based on user input', 'Built and tested components'],
+    takeaways: null
   },
   { 
     title: 'Computational Models',
@@ -52,7 +54,8 @@ export const portfolioPieces = [
     description: 'A collection of computational models that simulate physical systems from classical mechanics, electricity and magnetism, chaos, quantum mechanics, and statistical mechanics.',
     github: 'https://github.com/licarpen/computational-modeling',
     site: 'https://computationalmodeling.netlify.com',
-    contributions: ['Compared errors in Euler and Euler-Comer approximation methods for modeling radioactive decay', 'Graphed chaotic behavior of two driven damped pendula', 'Graphed bifurcation and chaos of the logistic equation', 'Graphed Mandelbrot set fractal', 'Visualized interactions of sound waves', 'Modeled Pyrochlore lattice structure in 3D', 'Simulated knuckleball throw', 'Generated random walk in 1D', 'Approximated pi using Archimedes\' method', 'Compared integral approximation techniques', 'Modeled potential surrounding a hollow prism', 'Generated white noise']
+    contributions: ['Compared errors in Euler and Euler-Comer approximation methods for modeling radioactive decay', 'Graphed chaotic behavior of two driven damped pendula', 'Graphed bifurcation and chaos of the logistic equation', 'Graphed Mandelbrot set fractal', 'Visualized interactions of sound waves', 'Modeled Pyrochlore lattice structure in 3D', 'Simulated knuckleball throw', 'Generated random walk in 1D', 'Approximated pi using Archimedes\' method', 'Compared integral approximation techniques', 'Modeled potential surrounding a hollow prism', 'Generated white noise'],
+    takeaways: null
   },
   { 
     title: 'Plant Parenthood',
@@ -62,7 +65,8 @@ export const portfolioPieces = [
     description: 'A secure, server-side app for remote gathering of sensor data from an IoT device, built by a 5-person team in a 4-day sprint.',
     github: 'https://github.com/piParty/pi-party',
     site: null,
-    contributions: ['Set up and integrated hardware', 'Developed security processes', 'Seeded and tested plant database', 'Wrote and tested plants routes', 'Gathered and posted sensor data to database']
+    contributions: ['Set up and integrated hardware', 'Developed security processes', 'Seeded and tested plant database', 'Wrote and tested plants routes', 'Gathered and posted sensor data to database'],
+    takeaways: ['Working in vertical slices is key to achieving MVP.', 'Working with hardware is hard.', 'One network may have multiple access points', 'Some networks have Secure Shell permanently disabled']
   },
   {
     title: 'Computer Vision',
@@ -72,7 +76,8 @@ export const portfolioPieces = [
     description: 'Examples of using the Intel OpenVino toolkit to enable computer vision applications at the edge of computing, such as with IoT devices.  Implementations include gaining familiarity with the model optimizer, utilizing the inference engine, processing model output, and addressing communication with servers.  The image shown is taken from a video output that uses Single Shot MultiBox Detection for vehicles on a roadway to identify vehicles in each frame based on desired confidence threshold.',
     github: 'https://github.com/licarpen/computer_vision',
     site: null,
-    contributions: null
+    contributions: null,
+    takeaways: null
   },
   {
     title: 'Overripe Bananas',
@@ -91,7 +96,6 @@ export const portfolioPieces = [
     technology: 'React/Redux, Redux-thunk',
     description: 'An exercise in using the react-redux methodology.  This app allows a user to search for a github user and display their public info and repos.  Redux-thunk is used to resolve fetches to the external github api.',
     github: 'https://github.com/licarpen/github-viewer',
-    site: 'https://github-user-viewer.netlify.com',
     contributions: null
   },
   {
